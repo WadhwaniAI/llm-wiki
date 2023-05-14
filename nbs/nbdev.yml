@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Effective ML"
-  site-url: "https://dhavala.github.io/nbdev-hello-world"
+  site-url: "https://wadhwaniai.github.io/llm-wiki"
   description: "experiment with nbdev for a book format"
   repo-branch: main
-  repo-url: "https://github.com/dhavala/nbdev-hello-world"
+  repo-url: "https://github.com/wadhwaniai/llm-wiki"
