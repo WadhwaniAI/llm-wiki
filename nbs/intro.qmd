@@ -5,7 +5,7 @@ Effective ML: from Concepts to Actions
 
 Effective ML  brings togeher
 
-*  scientific methods
+* scientific methods
 * engineering tools
 * and design thinking 
 
