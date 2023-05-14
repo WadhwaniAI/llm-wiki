@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "llm-wiki"
-  site-url: "https://WadhwaniAI.github.io/llm-wiki"
-  description: "all things llm"
+  title: "Effective ML"
+  site-url: "https://dhavala.github.io/nbdev-hello-world"
+  description: "experiment with nbdev for a book format"
   repo-branch: main
-  repo-url: "https://github.com/WadhwaniAI/llm-wiki"
+  repo-url: "https://github.com/dhavala/nbdev-hello-world"

@@ -1,0 +1,13 @@
+# Foreword
+[Alpan Raval](https://www.wadhwaniai.org/team/alpan-raval/)
+
+---
+
+What  frame of mind is required to solve ML problems in applied settings?
+
+* Adopt a problem-first mindset to a method-first mindset. 
+* Innovating on Algorithmic research does not pay off well as much as one expects, compared to investing on the problem, data, and overall solution to solve practical problems.
+
+> _Focus on Applied Research, not Algorithmic Research_
+
+I hope that this edition of Effective ML practices helps adopt this mind to deliver value.

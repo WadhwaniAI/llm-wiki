@@ -1,20 +1,63 @@
 project:
   type: website
+  preview:
+    port: 3000
+    browser: false
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 4
 
 website:
   twitter-card: true
   open-graph: true
   repo-actions: [issue]
+
+  sidebar:
+    style: floating
+    contents:
+      - index.qmd
+      - auto: "/*.ipynb"
+      - section: prepare
+        contents: 
+          - prepare/01_DataScaling.ipynb
+          - prepare/02_TransferLearning.ipynb
+      - section: develop
+        contents:
+          - develop/01_Intro2MetaFlow.ipynb
+          - develop/02_Intro2SageMaker.ipynb
+        
   navbar:
     background: primary
     search: true
-  sidebar:
-    style: floating
+    collapse-below: lg
+    left:
+      - text: "Foreword"
+        href: foreword.qmd
+      - text: "Preface"
+        href: preface.qmd
+      - text: "Introduction"
+        href: intro.qmd
+      
+      
+      - text: "Wadhwani AI"
+        menu:
+          - text: "About Us"
+            icon: people-fill
+            href: https://wadhwaniai.org/about/
+          - text: "Blog"
+            icon: pen-fill
+            href: https://wadhwaniai.org/blog/
+          
+    right:
+      - icon: github
+        href: "https://github.com/WadhwaniAI"
+      - icon: twitter
+        href: https://twitter.com/WadhwaniAI
+        aria-label: wadhwaniai.org Twitter
 
-metadata-files: [nbdev.yml, sidebar.yml]
+
+metadata-files: [nbdev.yml,sidebar.yml]

@@ -1,0 +1,48 @@
+# Introduction
+Effective ML: from Concepts to Actions
+
+---
+
+Effective ML  brings togeher
+
+*  scientific methods
+* engineering tools
+* and design thinking 
+
+to solve practical problems.
+
+> Effective ML is a set of practices and reocmmendations to build _Performant, Observable, Reliable, Agile, Scalable, Faster, Cost-efficient Machine Learning_
+
+The question is -- is it something new? Absolutely not. For an organization like Wadhwani AI, which focusses on _applying_ ML/AI to solve problems, one has to counter the popular narrative, which overemphasies models over modeling. Here, modeling is all an all encompassing action verb. 
+
+Therefore, in this edition of Effective ML, we break down the workflow into actions, and talk about which scinetific methods are useful, what engineering tools are available, and how to orchstrate these actions to build well designed, well engineered ML systems. Since models and the allied baggage is abundenty available within reach, we deliberately do not cover these aspect (i.e no algorithms and model dicussion).
+
+
+
+Specifally, all topics dicussed will cover one of the following Actions:
+
+* Prepare: 
+    + Can we get ready to solve a problem even with zero problem-specific data? Enter the world of pre-trained models, public datasets and self-supervised learning.
+    + Can we be ready with the most obvious but dreaded question your clients would be asking - How much data do you need?
+* Design
+    + ML is a piece of technology, maybe a glorified one. It is one lego piece in the puzzle! What is the puzzle we need to solve
+    + What are those lego pieces? How to solve a problem with ML and design such systems?
+* Write
+    + How to write clean, readable, maintainable, modular, extensible code? 
+* Develop
+    + How can you collaborate with other team members? How do you manage Compute resources? Do you need to version data, code, runtimes yourself? How do you ensure your ML project is reproducible?
+* Document
+    + How do you communicate the logic, pipelines, results, and metrics? Do you see  writing code and documenting as separate activities? As results get updated, how do you keep your documentation up-to-date? 
+* Deploy
+    + A most important aspect of applied research is to deploy a solution. What are the many possible ways to deploy models? What are CI/CD tools to ensure only tested models get deployed?
+* Observe
+    + What you can not observe, you can not understand. What you can not understand, you can not control! Observibility of an ML system pre- or post- deployment is a prerequisite to developing a healthy, verifiable ML system. How can you make your ML system - observable?
+* Test
+    + The IT industry, over a period of decades, developed a variety of tools, processes and practices to test software, to the extent that, new paradigms such as Test Driven Design, QA, Agile Methods, emerged. ML is nascent compared to IT & Software development – top that with inherent lack of determinism in ML systems. How to test systems, at various stages of development and deployment, in the presence of certain uncertainty.
+* Diagnose
+    + Test & Train errors and some plots of accuracy vs time. Is that all we got? How to debug models, at various levels of granularity and from various angles?
+* Improve/ iterate
+    + ML systems, like Software products, are unfinished by design. Model development is an interactive exercise. What does it take to have a Continuous Improvement pipeline in-place? 
+
+
+The collection of works in this executable playbook is a result of 20+ people spending 20 hours together, spread across two days, listening, presenting and discussing  25+ topics. There were 15 presentations made by the ML team alone on a range of topics.

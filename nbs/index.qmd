@@ -1,0 +1,8 @@
+# Effecrive ML
+from Concepts to Actions
+
+---
+
+![](./images/eml-cover.png)
+
+---
