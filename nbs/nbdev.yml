@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "llm-wiki"
+  site-url: "https://WadhwaniAI.github.io/llm-wiki"
+  description: "all things llm"
+  repo-branch: main
+  repo-url: "https://github.com/WadhwaniAI/llm-wiki"
