@@ -21,27 +21,42 @@ website:
     contents:
       - index.qmd
       - auto: "/*.ipynb"
-      - section: prepare
+      - section: Papers
         contents: 
-          - prepare/01_DataScaling.ipynb
-          - prepare/02_TransferLearning.ipynb
-      - section: develop
+          - papers/01_DataScaling.ipynb
+          - papers/02_TransferLearning.ipynb
+      - section: Blogs
         contents:
-          - develop/01_Intro2MetaFlow.ipynb
-          - develop/02_Intro2SageMaker.ipynb
+          - blogs/01_Intro2MetaFlow.ipynb
+          - blogs/02_Intro2SageMaker.ipynb
+      - section: Datasets
+        contents:
+          - datasets/01_Intro2MetaFlow.ipynb
+          - datasets/02_Intro2SageMaker.ipynb
+      - section: Tools
+        contents:
+          - codes/01_Intro2MetaFlow.ipynb
+          - codes/02_Intro2SageMaker.ipynb
+      - section: Services
+        contents:
+          - services/01_Intro2MetaFlow.ipynb
+          - services/02_Intro2SageMaker.ipynb
+      - section: Models
+        contents:
+          - models/01_Intro2MetaFlow.ipynb
+          - models/02_Intro2SageMaker.ipynb
         
   navbar:
     background: primary
     search: true
     collapse-below: lg
     left:
-      - text: "Foreword"
+      - text: "Top-20"
         href: foreword.qmd
-      - text: "Preface"
+      - text: "News"
         href: preface.qmd
-      - text: "Introduction"
+      - text: "Primer"
         href: intro.qmd
-      
       
       - text: "Wadhwani AI"
         menu:

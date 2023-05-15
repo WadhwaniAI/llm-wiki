@@ -1,8 +1,38 @@
-# Effecrive ML
-from Concepts to Actions
+# LLM-Wiki
+All things LLMs
 
 ---
 
-![](./images/eml-cover.png)
+Welcome to this fascinating journey into the world of Language Model Masters (LLMs). In an era where artificial intelligence has made tremendous strides, the emergence of LLMs has revolutionized the field of natural language processing and human-machine interaction. As you embark on this exploration, prepare to be amazed by the capabilities, challenges, and implications of these remarkable language models.
+
+The purpose of this wiki is to shed light on the extraordinary advancements in LLM technology and its profound impact on various aspects of our lives. From transforming customer service interactions to enabling creative writing assistance, LLMs have become integral to our digital landscape. But what exactly are LLMs, and how do they work?
+
+In this wiki, we will curate a list of papers, blogs, code repositories, books, datasets that delve into the
+
+* inner workings of LLMs, tracing their development from their humble beginnings to the state-of-the-art
+
+* their architecture, training methodologies
+
+* the vast datasets that fuel their learning
+
+* Understanding the mechanics behind these models will provide valuable insights into their capabilities and limitations
+
+* real-world applications of LLMs across diverse domains. 
+
+* potential benefits and risks associated with LLM deployment
+
+* key challenges and controversies surrounding LLMs. We will explore topics such as bias and fairness, data privacy, and the ethical responsibilities that accompany the development and use of these models.
+
+* Future of LLMs and the potential they hold for advancing human-machine collaboration. 
+
+As we navigate the uncharted territories of AI, it is crucial to anticipate the opportunities and challenges that lie ahead. The convergence of human intelligence and machine learning is a transformative force, and understanding its implications will empower us to shape a future that is beneficial for all.
+
+This wiki aims to be a comprehensive guide, accessible to both the curious novice and the seasoned expert in the field. It offers a balanced perspective, presenting the complexities and nuances of LLMs in a clear and engaging manner. By the end of this journey, we hope you will have gained a deeper understanding of LLMs, their significance, and their impact on our world.
+
+It is with great pleasure that we invite you to embark on this exciting voyage into the realm of LLMs. As you turn the pages, immerse yourself in the wonders and challenges of these remarkable language models. May this book serve as a catalyst for thought, discussion, and action, ultimately guiding us towards a future where human intelligence and artificial intelligence coexist harmoniously.
+
+Enjoy the journey.
+
+Seed content created by GPT-4. Mildy edited.
 
 ---
