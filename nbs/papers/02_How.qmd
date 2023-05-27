@@ -1,15 +1,15 @@
-# The How
+# The How & Why
 > Under the hood, why & how LLMs work?
 
-
+## Perspectives
 > **Language Models are Few-Shot Learners **\
 [Paper](https://arxiv.org/abs/2005.14165) | Code | Blog | May 2020 \
 Ditch the paradigm of pre-train, fine-tune. Towards One model, many tasks.
 
+## In-Context Learning
 > **What Can Transformers Learn In-Context? A Case Study of Simple Function Classes **\
 [Paper](https://arxiv.org/abs/2208.01066) | Code | Blog | Aug 2022 \
 Using Linear models as a probing device - shows what ICL does?
-
 
 > **What learning algorithm is in-context learning? Investigations with linear models **\
 [Paper](https://arxiv.org/abs/2211.15661) | Code | Blog | Nov 2022 \
@@ -19,6 +19,7 @@ in-context learning recovers standard algorithms in linear model setup.
 [Paper](https://arxiv.org/abs/2212.10559v2) | Code | Blog | Dec 2022 \
 Uses linear models as a lens to understand what in-context learnign does? It is a meta gradiant optimizer.
 
+## Scaling Laws
 
 > **Scaling Data-Constrained Language Models **\
 [Paper](https://arxiv.org/abs/2305.16264) | [Code](https://github.com/huggingface/datablations) | Blog | May 2023 \
@@ -28,7 +29,7 @@ Scale data and model size. How big is big? Can data be reused and selectively re
 [Paper](https://arxiv.org/abs/2305.11206) | Code | Blog | May 2023 \
 A relief. Low volume but high quality instruction data is good. No RLHF required!!!
 
-
+## Evaluation
 > **How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection **\
 [Paper](https://arxiv.org/abs/2301.07597) | Code | Blog | date \
 Easy jobs will be eiliminated. Higher order skills needed to survive. 

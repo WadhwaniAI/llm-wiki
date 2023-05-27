@@ -34,10 +34,3 @@ Better error corrections by breaking the task into chunks!
 > **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face **\
 [Paper](https://arxiv.org/abs/2303.17580) | Code | Blog | date \
 LLMs as controllers.
-
-
-
-
-> **title **\
-[Paper]() | Code | Blog | date \
-comment

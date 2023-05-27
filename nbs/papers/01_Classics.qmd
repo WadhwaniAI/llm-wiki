@@ -18,7 +18,6 @@ Key in making generated output more responsible, humble, and realistic
 Instruction data was critical for GPT's performance and generalization. But these datasets are hard to come by.
 Can they be bootstrapped?
 
-
 >**LLaMA: Open and Efficient Foundation Language Models **\
 [Paper](https://arxiv.org/abs/2302.13971v1) | Code | Blog | Feb 2023 \
 This work by Meta, paved way for many derivate models, as an alternative to GPT-4.
