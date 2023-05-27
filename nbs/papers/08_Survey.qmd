@@ -1,0 +1,24 @@
+# Survey
+> A retrospective look
+
+
+
+> **Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural Language Generation **\
+[Paper](https://arxiv.org/abs/2305.00955) | Code | Blog | May 2023 \
+How to make models less toxic and how to leverage human feedback? What are the types of feedback?
+
+> **Augmented Language Models: a Survey **\
+[Paper]() | Code | Blog | Feb 2023 \
+An emerging design pattern - LLMs are controllers
+
+> **An Overview on Language Models: Recent Developments and Outlook **\
+[Paper](https://arxiv.org/abs/2303.05759) | Code | Blog | Mar 2023 \
+comment
+
+> **Survey of Hallucination in Natural Language Generation **\
+[Paper](https://arxiv.org/abs/2202.03629) | Code | Blog | Nov 2022 \
+Metrics, Mitigation Methods and Future Direction! Should be a good read for everyone!
+
+> **Rebooting AI in India **\
+[Paper](https://static1.squarespace.com/static/618a55c4cb03246776b68559/t/640ffea3c6d2c40e5c0d9546/1678769837760/Rebooting+AI+in+India.pdf) | Code | Blog | March 2023 \
+Landscape has changed since then. Training LLMs does not need billions, but data!

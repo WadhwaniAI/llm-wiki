@@ -1,6 +1,6 @@
 ---
 order: 1
-title: Prepare
+title: Papers
 listing:
   fields: [title, description]
   type: table

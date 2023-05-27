@@ -1,0 +1,44 @@
+# Methods
+> Methods and Techniques
+
+
+> **QLoRA: Efficient Finetuning of Quantized LLMs **\
+[Paper](https://arxiv.org/abs/2305.14314) | [Code](https://github.com/artidoro/qlora) | Blog| May 2023 \
+Quantize a pre-trained model, add an adapter and fine-tune via LoRA: a reciepe for creating new LLMs
+
+> **Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes **\
+[Paper](https://arxiv.org/abs/2305.02301) | Code | Blog| May 2023 \
+Another type of PEFT (Performance Efficient Fine Tuning) like LoRA family, but train smaller models on narrow tasks, with smaller datasets.
+
+> **Iterative Forward Tuning Boosts In-context Learning in Language Models  **\
+[Paper](https://arxiv.org/abs/2305.13016) | [Code](https://github.com/artidoro/qlora) | Blog| May 2023 \
+Another type of prompting? Like ICL, no-backprop but still adapt on examples!
+
+> **SLiC-HF: Sequence Likelihood Calibration with Human Feedback  **\
+[Paper](https://arxiv.org/abs/2305.10425) | Code | Blog| May 2023 \
+A simpler policy than PPO for use in RLHF, a key ingradient in GPT's success
+
+
+> **SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot  **\
+[Paper](https://arxiv.org/abs/2301.00774) | Code | Blog| Jan 2023 \
+Without any retraining, prune large models under few hours
+
+> **Cramming: Training a Language Model on a Single GPU in One Day **\
+[Paper](https://arxiv.org/abs/2212.14034) | Code | Blog | Dec 2022 \
+Cram It :)
+
+
+> **Small Models are Valuable Plug-ins for Large Language Models  **\
+[Paper](https://arxiv.org/abs/2305.08848) | Code | Blog| May 2023 \
+Use small models to provide the context. Big models will do better.
+
+
+
+> **Multimodal Chain-of-Thought Reasoning in Language Models **\
+[Paper](https://arxiv.org/abs/2302.00923) | Code | Blog | date \
+Reason with multiple modlas in the chain of thoughts!
+
+
+>**title **\
+[Paper]() | Code | Blog | date \
+comment

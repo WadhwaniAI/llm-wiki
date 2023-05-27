@@ -1,0 +1,10 @@
+# Sparks
+> Is it the silver buller we are looking for?
+
+> **Sparks of Artificial General Intelligence: Early experiments with GPT-4 **\
+[Paper](https://arxiv.org/abs/2303.12712) | Code | Blog | date \
+Feels so. But is it for real?
+
+> **ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks **\
+[Paper](https://arxiv.org/abs/2303.15056) | Code | Blog | May 2023 \
+Wow, beat them in twier own game!

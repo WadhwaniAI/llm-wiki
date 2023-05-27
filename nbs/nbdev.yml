@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "LLM Wiki"
+  title: "LLM-Wiki"
   site-url: "https://wadhwaniai.github.io/llm-wiki"
-  description: "All things LLMs"
+  description: "experiment with nbdev for a book format"
   repo-branch: main
   repo-url: "https://github.com/wadhwaniai/llm-wiki"

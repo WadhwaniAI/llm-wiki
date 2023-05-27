@@ -3,6 +3,66 @@ All things LLMs
 
 ---
 
+[![](./images/llm_tree.jpeg)](https://github.com/Mooler0410/LLMsPracticalGuide/blob/main/imgs/qr_version.jpg)
+
+
+> This content can be styled with a border. Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+\
+[Paper](http://google.org) | Code | Blog
+
+
+
+> Another This content can be styled with a border. Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+\
+[Paper](http://google.org) | Code | Blog
+
+
+
+
+::: {.border}
+This content can be styled with a border
+:::
+
+:::{.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-note icon="false" appearance="minimal"}
+Pay Attention twice Using callouts is an effective way to highlight content that 
+your reader give special consideration or attention
+
+---
+
+[Paper](http://google.org) | Code | Blog
+
+Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+:::
+
+
+::: {.callout-tip icon="false"}
+
+## Pay Attention twice Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+
+Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+
+[Paper](http://google.org) | Code | Blog
+
+:::
+
+
+::: {.callout-tip icon="false"}
+# [Paper](http://google.org) | Code | Blog
+
+Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+
+
+
+:::
+
+
+
+
 Welcome to this fascinating journey into the world of Language Model Masters (LLMs). In an era where artificial intelligence has made tremendous strides, the emergence of LLMs has revolutionized the field of natural language processing and human-machine interaction. As you embark on this exploration, prepare to be amazed by the capabilities, challenges, and implications of these remarkable language models.
 
 The purpose of this wiki is to shed light on the extraordinary advancements in LLM technology and its profound impact on various aspects of our lives. From transforming customer service interactions to enabling creative writing assistance, LLMs have become integral to our digital landscape. But what exactly are LLMs, and how do they work?

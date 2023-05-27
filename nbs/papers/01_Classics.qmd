@@ -1,0 +1,29 @@
+# Classics
+> Seminal works
+
+>**GPT-4 Technical Report ** \
+[Paper](https://arxiv.org/abs/2303.08774) | Code | Blog | Mar 2023 \
+Reports the development of GPT-4
+
+>**Proximal Policy Optimization Algorithms **\
+[Paper](https://arxiv.org/abs/1707.06347) | Code | Blog | July 2017 \
+RL Policy used  used in GPT-4's RLHF.
+
+> **Training language models to follow instructions with human feedback **\
+[Paper](https://arxiv.org/abs/2203.02155) | Code | Blog | Dec 2022 \
+Key in making generated output more responsible, humble, and realistic
+
+> **Self-instruct: Aligning Language Models with Self Generated Instructions **\
+[Paper](https://arxiv.org/abs/2212.10560) | Code | Blog | Dec 2022 \
+Instruction data was critical for GPT's performance and generalization. But these datasets are hard to come by.
+Can they be bootstrapped?
+
+
+>**LLaMA: Open and Efficient Foundation Language Models **\
+[Paper](https://arxiv.org/abs/2302.13971v1) | Code | Blog | Feb 2023 \
+This work by Meta, paved way for many derivate models, as an alternative to GPT-4.
+
+
+>**LoRA: Low-Rank Adaptation of LLMs **\
+[Paper](https://arxiv.org/abs/2106.09685) | Code | Blog | Jun 2021 \
+Very useful in training and hosting LLMs on small datasets and low hardware settings. A key technique in fine-tuning LLMs in downstream tasks.

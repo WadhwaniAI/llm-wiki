@@ -1,0 +1,43 @@
+# Design Patterns
+> How LLMs be used & applied?
+
+
+
+> **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing **\
+[Paper](https://arxiv.org/abs/2107.13586) | Code | Blog | Jul 2021 \
+The new way of solving NLP tasks: pre-train, prompt, and predict.
+
+>**Reasoning with Language Model is Planning with World Model **\
+[Paper](https://arxiv.org/abs/2305.14992) | Code | Blog | May 2023 \
+LLMs as both world model, reasoning & planning agent. 
+
+>**How Does Generative Retrieval Scale to Millions of Passages? **\
+[Paper](https://arxiv.org/abs/2305.11841) | Code | Blog | May 2023 \
+An emerging pattern in LLMs is Retriveal Augmented Information Retrivesl. Can Google search be made generative?
+
+> **Small Models are Valuable Plug-ins for Large Language Models  **\
+[Paper](https://arxiv.org/abs/2305.08848) | Code | Blog| May 2023 \
+Use small models to provide the context. Big models will do better.
+
+> **Crawling the Internal Knowledge-Base of Language Models  **\
+[Paper](https://arxiv.org/abs/2301.12810) | Code | Blog| April 2023 \
+Interesting. Thefore, treat LLMs as indexed web, and create structured data from unstructred web.
+
+> **Collaborating with language models for embodied reasoning **\
+[Paper](https://arxiv.org/abs/2302.00763) | Code | Blog | Feb 2023 \
+A planner- actor- Reported: multiple LLMs work with each other.
+
+> **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents **\
+[Paper](https://arxiv.org/abs/2302.01560) | Code | Blog | Feb 2023 \
+Better error corrections by breaking the task into chunks!
+
+> **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face **\
+[Paper](https://arxiv.org/abs/2303.17580) | Code | Blog | date \
+LLMs as controllers.
+
+
+
+
+> **title **\
+[Paper]() | Code | Blog | date \
+comment

@@ -22,9 +22,16 @@ website:
       - index.qmd
       - auto: "/*.ipynb"
       - section: Papers
-        contents: 
-          - papers/01_DataScaling.ipynb
-          - papers/02_TransferLearning.ipynb
+        contents:
+          - papers/01_Classics.qmd
+          - papers/02_How.qmd
+          - papers/03_Apps.qmd
+          - papers/04_Hope.qmd
+          - papers/05_Risks.qmd
+          - papers/06_Patterns.qmd
+          - papers/07_Methods.qmd
+          - papers/08_Survey.qmd
+
       - section: Blogs
         contents:
           - blogs/01_Intro2MetaFlow.ipynb
