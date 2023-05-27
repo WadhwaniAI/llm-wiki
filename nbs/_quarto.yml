@@ -35,6 +35,7 @@ website:
       - section: Blogs
         contents:
           - blogs/01_top.qmd
+          - blogs/02_chronicles.qmd
       - section: Datasets
         contents:
           - datasets/01_data.qmd
@@ -42,10 +43,6 @@ website:
         contents:
           - codes/01_Intro2MetaFlow.ipynb
           - codes/02_Intro2SageMaker.ipynb
-      - section: Services
-        contents:
-          - services/01_Intro2MetaFlow.ipynb
-          - services/02_Intro2SageMaker.ipynb
       - section: Models
         contents:
           - models/01_Intro2MetaFlow.ipynb

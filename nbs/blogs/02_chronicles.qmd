@@ -1,0 +1,12 @@
+# Chronicles
+> perspectives as they occur
+
+
+> **Modern AI is Domestification ** \
+_The Gradient_\
+Paper | Code | [Blog](https://thegradient.pub/ai-is-domestification/?utm_source=substack&utm_medium=email) |  YouTube | Twitter | May 2023 \
+What is your moat. Is your prior (on data) same as the LLMs - do prompting. If not fine-tune.
+You have no compute. Go for PEFT. If not fine tune. SFT on Imitation data might lead to false superriority as this [Paper](https://arxiv.org/abs/2304.15004) reported. Figure out your priors first. Strategy follows.
+
+
+
