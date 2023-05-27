@@ -34,12 +34,10 @@ website:
 
       - section: Blogs
         contents:
-          - blogs/01_Intro2MetaFlow.ipynb
-          - blogs/02_Intro2SageMaker.ipynb
+          - blogs/01_top.qmd
       - section: Datasets
         contents:
-          - datasets/01_Intro2MetaFlow.ipynb
-          - datasets/02_Intro2SageMaker.ipynb
+          - datasets/01_data.qmd
       - section: Tools
         contents:
           - codes/01_Intro2MetaFlow.ipynb

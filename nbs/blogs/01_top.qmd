@@ -1,0 +1,171 @@
+# Top
+> insightful blogs and other resources
+
+## Understanding
+
+> **What Is ChatGPT Doing … and Why Does It Work? ** \
+_Stephen Wolfram_\
+Paper | Code | [Blog](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) |  YouTube | Twitter | Feb 2023 \
+Strenghts & Limitations. Long read.
+
+> **The Road to chatGPT ** \
+_Rama Ramakrishnan_\
+Paper | Code | [pdf](https://drive.google.com/file/d/1-Gw1QsZEVhPYSeeNYnlrcgk_FbwuUTwq/view?pli=1) |  YouTube | Twitter | Mar 2023 \
+For a layman - how chatGPT works. Nice & Quick.
+
+> **Illustrating Reinforcement Learning from Human Feedback (RLHF) ** \
+_HuggingFace_\
+Paper | Code | [Blog](https://huggingface.co/blog/rlhf) |  YouTube | Twitter | Dec 2022 \
+A nice tutorial on RLHF - a key piece in GPT family.
+
+> **Understanding Parameter-Efficient Finetuning of Large Language Models: From Prefix Tuning to LLaMA-Adapters ** \
+_Sebastian Bubeck_\
+Paper | Code | [Blog](https://lightning.ai/pages/community/article/understanding-llama-adapters/) |  YouTube | Twitter | Apr 2023 \
+Adapters - dock trainable network to a pre-trained LLM and fine-tune.
+
+
+> **Why AI is incredibly smart and shockingly stupid ** \
+_Yejn Choi_\
+Paper | Code | Blog |  YouTube | [TED](https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid/c) | May 2023 \
+Is common sense important? Can AI be taught common sense. We need common-sense data.
+
+> **Understanding pre-trained LLMs through Probabilistic Lens ** \
+_Xinyi Wang_\
+Paper | Code | [pdf](https://wangxinyilinda.github.io/pdf/MAE_online.pdf) |  YouTube | Twitter | Feb 2023 \
+Somewhat a math-oriented explaination.
+
+
+> **Prompt Engineering ** \
+_Lillian Wang_\
+Paper | Code | [Blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) |  YouTube | Twitter | May 2023 \
+I have a hammer. Give me a nail. Watchout for this to advance! 
+
+
+> **History of LLaMA ** \
+_Andrew @ AGI Sphere_\
+Paper | Code | [Blog](https://agi-sphere.com/llama-models/) |  YouTube | Twitter | Apr 2023 \
+Tracks the history of LLaMA and future derivates.
+
+
+> **Exploring ChatGPT vs open-source models on slightly harder tasks ** \
+_Marco Tulio Ribeiro_\
+Paper | Code | [Blog](https://medium.com/@marcotcr/exploring-chatgpt-vs-open-source-models-on-slightly-harder-tasks-aa0395c31610) |  YouTube | Twitter | May 2023 \
+Well. GPT-4 is good.
+
+
+
+## Patterns
+
+> **Integrating ChatGPT with internal knowledge base and question-answer platform ** \
+_Quy Tang_\
+Paper | Code | [Blog](https://medium.com/singapore-gds/integrating-chatgpt-with-internal-knowledge-base-and-question-answer-platform-36a3283d6334) |  YouTube | Twitter | Mar 2023 \
+Retriveal Augmented Informatrion Extraction - an important design pattern
+
+
+> **LLMs as Recommender Systems ** \
+_Sumit Kumar_\
+Paper | Code | [Blog](https://blog.reachsumit.com/posts/2023/05/tuning-llm-for-recsys/) |  YouTube | Twitter | May 2023 \
+I have a hammer. Give me a nail. Watchout for this to advance! 
+
+> **Unifying LLM-powered QA Techniques with Routing Abstractions ** \
+_Jerry Liu_\
+Paper | Code | [Blog](https://betterprogramming.pub/unifying-llm-powered-qa-techniques-with-routing-abstractions-438e2499a0d0) |  YouTube | Twitter | May 2023 \
+Router design pattern to search.
+
+
+
+
+## Perspectives
+
+> **State of GPT ** \
+_Andrej Karpathy _\
+Paper | Code | Blog |  [YouTube](https://www.youtube.com/watch?v=bZQun8Y4L2A) | Twitter | May 2023 \
+Nice overview. Thinking Fast (Transformers & Tokens) and Thinking Slow (Chain of Thoughts).
+
+> **Reinforcement Learning from Human Feedback: Progress and Challenges  ** \
+_John Schulman_\
+Paper | Code | Blog |  [YouTube](https://www.youtube.com/watch?v=hhiLw5Q_UFg&t=2s) | Twitter | Apr 2023 \
+RL in GPT is researchy (Dont try at home :)  Dont try. Fine-tuning is OK.
+
+> **Sparks of AGI ** \
+_Sebastian Bubeck_\
+Paper | Code | Blog |  [YouTube](https://www.youtube.com/watch?v=qbIk7-JPB2c) | Twitter | Apr 2023 \
+Strenghts & Limitations
+
+> **AI Canon ** \
+_Anderseen Horowitz_\
+Paper | Code | [Blog]() |  YouTube | Twitter | May 2023 \
+Yes, an AI Canon - of useful resources. This [what you are reading] blog is then a Howtizer :)
+
+> **Beyond Bias to Action: AI Startups and Big Tech ** \
+_Prateek Raj_\
+Paper | Code | [Blog](https://prateekraj.substack.com/p/beyond-bias-to-action-ai-startups?r=1mknr&utm_campaign=post&utm_medium=web) |  YouTube | Twitter | May 2023 \
+Disrupt or be disrupted. What if the incumbents are creating products at breakneck speed. Microsoft's Windows 11 - get it?
+
+
+> **The New Generative AI Infra Stack ** \
+_Cowboy Ventures_\
+Paper | Code | [Blog](https://medium.com/cowboy-ventures/the-new-infra-stack-for-generative-ai-9db8f294dc3f) |  YouTube | Twitter | May 2023 \
+New Infra is needed to ship Generative AI products.
+
+
+> **Large Language Models and the Future of the ML Infrastructure Stack ** \
+_OuterBounds_\
+Paper | Code | [Blog](https://outerbounds.com/blog/llm-infrastructure-stack/) |  YouTube | Twitter | Apr 2023 \
+How LLMs will shape ML Infrastructure and vice-versa. Train Dolly with MetaFlow for under USD300.
+
+> **Modern language models refute Chomsky’s approach to language ** \
+_Steven Piantadosi_\
+Paper | Code | [Blog](https://lingbuzz.net/lingbuzz/007180) |  YouTube | Twitter | Mar 2023 \
+A debate rages again - this time with strong empircal success of neural language models, without any innate understanding of language.
+
+
+
+
+## Build
+
+> **Building LLM applications for production ** \
+_Chip Huyen_\
+Paper | Code | [Blog]() |  YouTube | Twitter | Apr 2023 \
+Hmm, timely to steer out of ambiguity. Trade-off hype for reality. Performance, Latency, Cost - matter more than novelty, as always!
+
+> **How we made Cerebras-GPT ** \
+_Cerebras Systems_\
+Paper | Code | Blog |  [YouTube](https://www.youtube.com/watch?v=QmmNgiFuIog) | Twitter | Q1 2023 \
+The hardware tricks of the trade.
+
+
+> **Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM ** \
+_DataBricks_\
+Paper | Code | [Blog](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) |  YouTube | Twitter | Apr 2023 \
+For less USD30, train an LLM, whihc is commercially permissive, based off of GPT-Neo-X.
+
+
+> **How to train your own LLMs ** \
+_replit_\
+Paper | Code | [Blog](https://blog.replit.com/llm-training) |  YouTube | Twitter | May 2023 \
+Lays out the steps.
+
+> **ColossalChat: An Open-Source Solution for Cloning ChatGPT With a Complete RLHF Pipeline ** \
+_Yang You_\
+Paper | [Code](https://github.com/hpcaitech/ColossalAI) | [Blog](https://medium.com/pytorch/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline-5edf08fb538b) |  YouTube | Twitter | Mar 2023 \
+Includes demo, training code, dataset, inference and model weights. Go create.
+
+> **The Full Story of Large Language Models and RLHF ** \
+_Assembly AI_\
+Paper | Code | [Blog](https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/) |  YouTube | Twitter | May 2023 \
+Create LLMs - another take.
+
+
+> **Finetuning a commercially viable open source LLM (Flan-UL2) using Dolly15K and LoRA ** \
+_Kevi Rohling_\
+Paper | Code | [Blog](https://medium.com/@krohling/finetuning-a-commercially-viable-open-source-llm-flan-ul2-3b84e568c458) |  YouTube | Twitter | Apr 2023 \
+Apply LoRA to create LLMS much quicker and cheaper.
+
+
+> **Instruction-tune models using your own data with txtinstruct ** \
+_David Mezzetti_\
+Paper | [Code](https://colab.research.google.com/github/neuml/txtinstruct/blob/master/examples/01_Introducing_txtinstruct.ipynb) | [Blog](https://medium.com/neuml/instruction-tune-models-using-your-own-data-with-txtinstruct-3008d8c8d025) |  YouTube | Twitter | May 2023 \
+It works. Get model from HF and train.
+
+
