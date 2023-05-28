@@ -2,6 +2,10 @@
 > perspectives as they occur
 
 
+> **Voyager: LLMs play games better than RL ** \
+_The Gradient_\
+Paper | Code | [Blog](https://voyager.minedojo.org/) |  YouTube | Twitter | May 2023 \
+
 > **Modern AI is Domestification ** \
 _The Gradient_\
 Paper | Code | [Blog](https://thegradient.pub/ai-is-domestification/?utm_source=substack&utm_medium=email) |  YouTube | Twitter | May 2023 \

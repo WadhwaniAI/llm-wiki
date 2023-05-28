@@ -7,6 +7,13 @@
 ## Open Zoo
 Models with Permissive Licenses
 
+
+
+> **OpenLLaMA  ** \
+models | paper | dataset  | [code](https://github.com/openlm-research/open_llama) | blog |\
+Any Open Source reproduction of LLaMA for permissive commerical uses.
+
+
 > **GPT-Neo-X  ** \
 [models](https://huggingface.co/docs/transformers/model_doc/gpt_neox) | [paper](https://arxiv.org/abs/2304.01373) | [dataset](https://pile.eleuther.ai/)  | [code](https://github.com/EleutherAI/gpt-neox) | blog |\
 Many in this small family at [Pythia](https://github.com/EleutherAI/pythia). Based on The Pile datset.

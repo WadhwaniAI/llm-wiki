@@ -29,6 +29,6 @@ A long-form QA to align model with humans. Accessible from HuggingFace datasets 
 [paper](https://arxiv.org/abs/2009.01325) | [dataset](https://huggingface.co/datasets/openai/summarize_from_feedback) | Code | Blog | \
 train a reward model, which helps an LLM align with Humans. Accessible from HuggingFace datasets library.
 
-> ** Stanford Human Preferences Dataset ** \
+> **Stanford Human Preferences Dataset ** \
 [paper](https://arxiv.org/abs/2009.01325) | [dataset](https://huggingface.co/datasets/stanfordnlp/SHP) | Code | Blog | \
 Models like Stable Vicuna are trained on this.

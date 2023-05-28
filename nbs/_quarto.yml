@@ -40,20 +40,18 @@ website:
       - models.qmd
       - section: Tools
         contents:
-          - codes/01_Intro2MetaFlow.ipynb
-          - codes/02_Intro2SageMaker.ipynb
+          - codes/01_frameworks.qmd
+          - codes/02_demos.qmd
     
   navbar:
     background: primary
     search: true
     collapse-below: lg
     left:
-      - text: "Top-20"
-        href: foreword.qmd
-      - text: "News"
-        href: preface.qmd
-      - text: "Primer"
-        href: intro.qmd
+      - text: "Models"
+        href: models.qmd
+      - text: "Datasets"
+        href: datasets.qmd
       
       - text: "Wadhwani AI"
         menu:

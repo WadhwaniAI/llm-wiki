@@ -1,0 +1,79 @@
+# Frameworks
+> for the handyman!
+
+## Utils
+> **LangChain  ** \
+[doc](https://python.langchain.com/en/latest/index.html) | [repo](https://github.com/hwchase17/langchain) |\
+Build LLM applications and implement several patterns like Agents, Controllers, Retrieval-Augmented Information Retrieval/\
+Integrates with many LLMs and databases. Noe4j is a new addition.
+
+> **llama-index  ** \
+[doc](https://gpt-index.readthedocs.io/en/latest/) | [repo](https://github.com/jerryjliu/llama_index) |\
+Useful in connecting disperate datasources via LLMs
+
+> **Chain Lit  ** \
+doc | [repo](https://github.com/Chainlit/chainlit) |\
+Build ChatGPT like UI. Integrated with LangChain.
+
+> **TxtAi  ** \
+doc | [repo](https://github.com/neuml/txtai) |\
+Search with LLMs
+
+> **NeMo Guardrails  ** \
+doc| [repo](https://github.com/NVIDIA/NeMo-Guardrails) |\
+Add programmable guardrails to LLMs
+
+> **LangChain AI PlugIN  ** \
+doc | [repo](https://github.com/langchain-ai/langchain-aiplugin) |\
+LangChain itself as a PlugIn to LLMs.
+
+> **Semantic Kernel  ** \
+doc | [repo](https://github.com/microsoft/semantic-kernel) |\
+Integrate LLMs with regular programming languages.
+
+> **MiniChain  ** \
+doc | [repo](https://github.com/srush/minichain) |\
+LLMs as Python functions.
+
+
+## Train
+> **EasyLM  ** \
+[doc]() | [repo](https://github.com/young-geng/EasyLM) |\
+pre-train, fine-tune LLMs like LLaMA, GPT-J and RoBERTa. Koala, OpenLLaMA are trained wth this.
+
+> **TxtInstruct  ** \
+[doc]() | [repo](https://github.com/neuml/txtinstruct) |\
+Datasets and Models for Instruction Tuning. See this [example](https://colab.research.google.com/github/neuml/txtinstruct/blob/master/examples/01_Introducing_txtinstruct.ipynb).
+
+
+> **Dynosuar: Data Curation Framework ** \
+[doc](https://dynosaur-it.github.io/) | [code](https://github.com/WadeYin9712/Dynosaur) \
+Use other LLMs to generate data.
+
+> **peft** \
+doc | [code](https://github.com/huggingface/peft) \
+Library for parameter efficient fine tuning. Implements LoRA, P-Tuning, AdaLoRA etc..
+
+> **QLoRA** \
+[paper](https://arxiv.org/abs/2305.14314) | [code](https://github.com/artidoro/qlora) \
+Fine-tune quantized LLMs
+
+> **LLaMA Adapter** \
+doc | [code](https://github.com/ZrrSkywalker/LLaMA-Adapter) \
+Fine LLaMA models.
+
+> **DeepSpeed** \
+doc | [code](https://github.com/microsoft/DeepSpeed) \
+A mature library from Microsoft to accelerate training Deep Learning models.
+
+> **Lamini** \
+doc | [code](https://github.com/lamini-ai/lamini/) \
+A nice abstraction to train models in the cloud.
+
+> **miniGPT** \
+doc | [code](https://github.com/karpathy/minGPT)) \
+A 90 line code to understand how to code and train a LM.
+
+> **cFormer** \
+doc | [code](https://github.com/NolanoOrg/cformers/) \
+Implementation in C/C++ to run LLMs on Laptops!
