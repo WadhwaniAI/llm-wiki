@@ -1,0 +1,30 @@
+# Datasets
+> THE moat!
+
+> **The Pile  ** \
+[paper](https://arxiv.org/abs/2101.00027) | [dataset](https://pile.eleuther.ai/) | Code | Blog | \
+An 825GB consisting of 22 smaller, high quality datasets to train LLMs. It is THE dataset from [eleuther](https://www.eleuther.ai/)
+
+> **used in Alpaca  ** \
+[paper](https://arxiv.org/abs/2302.13971v1) | [dataset](https://github.com/tatsu-lab/stanford_alpaca#data-release) | Code | [Blog](https://crfm.stanford.edu/2023/03/13/alpaca.html) | \
+52k instruction following data used in fine-tuning Alpaca model. This data was produced using GPT-3. So beware of the false superiority of the imitattion models.
+
+> **used in gpt4all, gpt4all-lora  ** \
+[gpt4all](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf) | [dataset](https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations) | [Code](https://github.com/nomic-ai/gpt4all) | [Blog](https://gpt4all.io/index.html) | \
+Accessible from HuggingFace datasets library.
+
+> **The OIG dataset  ** \
+paper | [dataset](https://laion.ai/blog/oig-dataset/) | Code | Blog | \
+43M Instruction dataset to convert a pre-trained LLM to follow instructions.
+
+> **from Anthropic  ** \
+paper | [dataset](https://huggingface.co/datasets/Anthropic/hh-rlhf/) | Code | Blog | \
+Human preference data to reduce model toxicity. Accessible from HuggingFace datasets library. 
+
+> **from openAI  ** \
+[paper](https://arxiv.org/abs/2112.09332) | [dataset](https://huggingface.co/datasets/openai/webgpt_comparisons) | Code | Blog | \
+A long-form QA to align model with humans. Accessible from HuggingFace datasets library.
+
+> **from openAI  ** \
+[paper](https://arxiv.org/abs/2009.01325) | [dataset](https://huggingface.co/datasets/openai/summarize_from_feedback) | Code | Blog | \
+train a reward model, which helps an LLM align with Humans. Accessible from HuggingFace datasets library.

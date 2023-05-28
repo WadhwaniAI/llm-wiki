@@ -36,9 +36,7 @@ website:
         contents:
           - blogs/01_top.qmd
           - blogs/02_chronicles.qmd
-      - section: Datasets
-        contents:
-          - datasets/01_data.qmd
+      - datasets.qmd
       - section: Tools
         contents:
           - codes/01_Intro2MetaFlow.ipynb
