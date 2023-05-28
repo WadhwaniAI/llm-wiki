@@ -6,6 +6,11 @@
 [Paper](https://arxiv.org/abs/2303.05759) | Code | Blog | Mar 2023 \
 comment
 
+>**Interactive Natural Language Processing **\
+[Paper](https://arxiv.org/abs/2305.13246) | Code | Blog | May 2023 \
+LLMs as Agents. This seems to be a dominant  pattern. _This survey serves as an entry point for researchers who are interested in this rapidly evolving area and offers a broad view of the current landscape and future trajectory of iNLP_.
+
+
 ## Alignment
 > **Bridging the Gap: A Survey on Integrating (Human) Feedback for Natural Language Generation **\
 [Paper](https://arxiv.org/abs/2305.00955) | Code | Blog | May 2023 \

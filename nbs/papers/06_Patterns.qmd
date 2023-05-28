@@ -2,10 +2,10 @@
 > How LLMs be used & applied?
 
 
+>**Interactive Natural Language Processing **\
+[Paper](https://arxiv.org/abs/2305.13246) | Code | Blog | May 2023 \
+LLMs as Agents. This seems to be a dominant  pattern. This survey serves as an entry point for researchers who are interested in this rapidly evolving area and offers a broad view of the current landscape and future trajectory of iNLP.
 
-> **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing **\
-[Paper](https://arxiv.org/abs/2107.13586) | Code | Blog | Jul 2021 \
-The new way of solving NLP tasks: pre-train, prompt, and predict.
 
 >**Reasoning with Language Model is Planning with World Model **\
 [Paper](https://arxiv.org/abs/2305.14992) | Code | Blog | May 2023 \
@@ -23,6 +23,11 @@ Use small models to provide the context. Big models will do better.
 [Paper](https://arxiv.org/abs/2301.12810) | Code | Blog| April 2023 \
 Interesting. Thefore, treat LLMs as indexed web, and create structured data from unstructred web.
 
+> **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face **\
+[Paper](https://arxiv.org/abs/2303.17580) | Code | Blog | Mar 2023 \
+LLMs as controllers.
+
+
 > **Collaborating with language models for embodied reasoning **\
 [Paper](https://arxiv.org/abs/2302.00763) | Code | Blog | Feb 2023 \
 A planner- actor- Reported: multiple LLMs work with each other.
@@ -31,6 +36,7 @@ A planner- actor- Reported: multiple LLMs work with each other.
 [Paper](https://arxiv.org/abs/2302.01560) | Code | Blog | Feb 2023 \
 Better error corrections by breaking the task into chunks!
 
-> **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face **\
-[Paper](https://arxiv.org/abs/2303.17580) | Code | Blog | date \
-LLMs as controllers.
+
+> **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing **\
+[Paper](https://arxiv.org/abs/2107.13586) | Code | Blog | Jul 2021 \
+The new way of solving NLP tasks: pre-train, prompt, and predict.

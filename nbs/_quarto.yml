@@ -37,15 +37,12 @@ website:
           - blogs/01_top.qmd
           - blogs/02_chronicles.qmd
       - datasets.qmd
+      - models.qmd
       - section: Tools
         contents:
           - codes/01_Intro2MetaFlow.ipynb
           - codes/02_Intro2SageMaker.ipynb
-      - section: Models
-        contents:
-          - models/01_Intro2MetaFlow.ipynb
-          - models/02_Intro2SageMaker.ipynb
-        
+    
   navbar:
     background: primary
     search: true

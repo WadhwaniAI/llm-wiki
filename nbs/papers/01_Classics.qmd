@@ -26,3 +26,15 @@ This work by Meta, paved way for many derivate models, as an alternative to GPT-
 >**LoRA: Low-Rank Adaptation of LLMs **\
 [Paper](https://arxiv.org/abs/2106.09685) | Code | Blog | Jun 2021 \
 Very useful in training and hosting LLMs on small datasets and low hardware settings. A key technique in fine-tuning LLMs in downstream tasks.
+
+>**QLoRA: Efficient Finetuning of Quantized LLMs **\
+[Paper](https://arxiv.org/abs/2305.14314) | Code | Blog | May 2023 \
+Very useful in training and hosting LLMs on small datasets and low hardware settings. A key technique in fine-tuning LLMs in downstream tasks.
+
+>**FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness **\
+[Paper](https://arxiv.org/abs/2205.14135) | Code | Blog | Mar 2022 \
+GPU-optimized Attention.
+
+>**Fast Transformer Decoding: One Write-Head is All You Need **\
+[Paper](https://arxiv.org/abs/1911.02150) | Code | Blog | Nov 2019 \
+Make training LLMs efficient.
