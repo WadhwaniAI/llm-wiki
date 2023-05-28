@@ -36,8 +36,6 @@ website:
         contents:
           - blogs/01_top.qmd
           - blogs/02_chronicles.qmd
-      - datasets.qmd
-      - models.qmd
       - section: Tools
         contents:
           - codes/01_frameworks.qmd

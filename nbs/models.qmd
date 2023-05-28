@@ -9,9 +9,9 @@ Models with Permissive Licenses
 
 
 
-> **OpenLLaMA  ** \
+> **Open LLaMA  ** \
 models | paper | dataset  | [code](https://github.com/openlm-research/open_llama) | blog |\
-Any Open Source reproduction of LLaMA for permissive commerical uses.
+An Open Source reproduction of LLaMA for permissive commerical uses.
 
 
 > **GPT-Neo-X  ** \
@@ -37,7 +37,7 @@ Based on GPT-Neo-X.
 
 
 ## Semi-Open Zoo
-Many in this category are, for most part, are derivates of LLaMA. Since the LLaMA model weights were never released officially, the following only publish the weight deltas. Thefore, overall model is not permissive for commerical usages.
+Many in this category are, for most part, are derivates of LLaMA. Since LLaMA model weights were never released officially, the following only publish the weight deltas. Thefore, overall model is not permissive for commerical usages.
 
 > **Falcon  ** \
 [models](https://huggingface.co/tiiuae/falcon-40b-instruct) | paper| dataset| Code | [Blog](https://falconllm.tii.ae/) | \
@@ -72,9 +72,8 @@ Introduces [EasyLM](https://github.com/young-geng/EasyLM) for code structuring a
 
 
 > **Alpaca  ** \
-models | [Paper](https://arxiv.org/abs/2302.13971v1) | [dataset](https://github.com/tatsu-lab/stanford_alpaca#data-release)| [code](https://github.com/tatsu-lab/stanford_alpaca) | [Blog](https://crfm.stanford.edu/2023/03/13/alpaca.html) | 
-[Alpaca-LoRA](https://github.com/tloen/alpaca-lora) can run Raspberry Pi \
-and Alpaca Replica
+models | [Paper](https://arxiv.org/abs/2302.13971v1) | [dataset](https://github.com/tatsu-lab/stanford_alpaca#data-release)| [code](https://github.com/tatsu-lab/stanford_alpaca) | [Blog](https://crfm.stanford.edu/2023/03/13/alpaca.html) | \
+[Alpaca-LoRA](https://github.com/tloen/alpaca-lora) can run Raspberry Pi
 
 
 > **LLaMA  ** \

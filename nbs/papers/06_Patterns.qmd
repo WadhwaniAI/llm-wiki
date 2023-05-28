@@ -1,19 +1,19 @@
 # Design Patterns
-> How LLMs be used & applied?
+> How should LLMs be used & applied?
 
 
 >**Interactive Natural Language Processing **\
 [Paper](https://arxiv.org/abs/2305.13246) | Code | Blog | May 2023 \
-LLMs as Agents. This seems to be a dominant  pattern. This survey serves as an entry point for researchers who are interested in this rapidly evolving area and offers a broad view of the current landscape and future trajectory of iNLP.
+LLMs as Agents. This seems to be a dominant  pattern. _This survey serves as an entry point for researchers who are interested in this rapidly evolving area and offers a broad view of the current landscape and future trajectory of iNLP_.
 
 
 >**Reasoning with Language Model is Planning with World Model **\
 [Paper](https://arxiv.org/abs/2305.14992) | Code | Blog | May 2023 \
-LLMs as both world model, reasoning & planning agent. 
+LLMs as world models, reasoning & planning agents. 
 
 >**How Does Generative Retrieval Scale to Millions of Passages? **\
 [Paper](https://arxiv.org/abs/2305.11841) | Code | Blog | May 2023 \
-An emerging pattern in LLMs is Retriveal Augmented Information Retrivesl. Can Google search be made generative?
+An emerging pattern in LLMs is Retriveal Augmented Information Retrievel. Can Google search be made generative?
 
 > **Small Models are Valuable Plug-ins for Large Language Models  **\
 [Paper](https://arxiv.org/abs/2305.08848) | Code | Blog| May 2023 \
@@ -30,7 +30,7 @@ LLMs as controllers.
 
 > **Collaborating with language models for embodied reasoning **\
 [Paper](https://arxiv.org/abs/2302.00763) | Code | Blog | Feb 2023 \
-A planner- actor- Reported: multiple LLMs work with each other.
+A planner- actor- reporter: multiple LLMs work with each other.
 
 > **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents **\
 [Paper](https://arxiv.org/abs/2302.01560) | Code | Blog | Feb 2023 \

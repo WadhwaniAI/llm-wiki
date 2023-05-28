@@ -4,8 +4,7 @@
 
 > **Harnessing the power of LLMs: A Survey on ChatGPT and Beyond **\
 [Paper](https://arxiv.org/abs/2304.15004) | Code | [Blog](https://github.com/Mooler0410/LLMsPracticalGuide) | April 2023 \
-Discuss the use and non-use of LLMs. In the accompaining blog, provides the evolutionary tree of LLMs
-[cross-posted]
+Discuss the use and non-use of LLMs. In the accompaining blog, evolutionary tree of LLMs is provided.
 
 > **100 usecases of chatGPT **\
 [Paper](https://ai.gov.ae/wp-content/uploads/2023/04/406.-Generative-AI-Guide_ver1-EN.pdf) | Code | Blog | April 2023 \

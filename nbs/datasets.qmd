@@ -3,7 +3,8 @@
 
 > **The Pile  ** \
 [paper](https://arxiv.org/abs/2101.00027) | [dataset](https://pile.eleuther.ai/) | Code | Blog | \
-An 825GB consisting of 22 smaller, high quality datasets to train LLMs. It is THE dataset from [eleuther](https://www.eleuther.ai/)
+An 825GB set consisting of 22 smaller, high quality datasets to train LLMs.\ 
+It is THE dataset from [eleuther](https://www.eleuther.ai/)
 
 > **used in Alpaca  ** \
 [paper](https://arxiv.org/abs/2302.13971v1) | [dataset](https://github.com/tatsu-lab/stanford_alpaca#data-release) | Code | [Blog](https://crfm.stanford.edu/2023/03/13/alpaca.html) | \
@@ -32,3 +33,9 @@ train a reward model, which helps an LLM align with Humans. Accessible from Hugg
 > **Stanford Human Preferences Dataset ** \
 [paper](https://arxiv.org/abs/2009.01325) | [dataset](https://huggingface.co/datasets/stanfordnlp/SHP) | Code | Blog | \
 Models like Stable Vicuna are trained on this.
+
+> ** Dynosuar: Data Curation Framework ** \
+paper | datase | Code | [Blog](https://dynosaur-it.github.io/) \
+Use other LLMs to generate data.
+
+
