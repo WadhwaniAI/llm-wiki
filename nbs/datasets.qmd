@@ -1,6 +1,7 @@
 # Datasets
 > THE moat!
 
+## Datasets
 > **The Pile  ** \
 [paper](https://arxiv.org/abs/2101.00027) | [dataset](https://pile.eleuther.ai/) | Code | Blog | \
 An 825GB set consisting of 22 smaller, high quality datasets to train LLMs.\ 
@@ -34,8 +35,16 @@ train a reward model, which helps an LLM align with Humans. Accessible from Hugg
 [paper](https://arxiv.org/abs/2009.01325) | [dataset](https://huggingface.co/datasets/stanfordnlp/SHP) | Code | Blog | \
 Models like Stable Vicuna are trained on this.
 
+## Synthetic Data Creation Tools
 > ** Dynosuar: Data Curation Framework ** \
-paper | datase | Code | [Blog](https://dynosaur-it.github.io/) \
+paper | dataset | Code | [Blog](https://dynosaur-it.github.io/) \
 Use other LLMs to generate data.
 
+> **Tool LLaMA ** \
+paper | dataset | [Code](https://github.com/OpenBMB/ToolBench) | [Tweet](https://twitter.com/TsingYoga/status/1662843257796333568?s=20) \
+Create high quality data to train LLMs
+
+> **TxtInstruct  ** \
+[doc]() | [repo](https://github.com/neuml/txtinstruct) |\
+Datasets and Models for Instruction Tuning. See this [example](https://colab.research.google.com/github/neuml/txtinstruct/blob/master/examples/01_Introducing_txtinstruct.ipynb).
 

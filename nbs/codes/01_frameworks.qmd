@@ -50,6 +50,11 @@ Datasets and Models for Instruction Tuning. See this [example](https://colab.res
 [doc](https://dynosaur-it.github.io/) | [code](https://github.com/WadeYin9712/Dynosaur) \
 Use other LLMs to generate data.
 
+> **Tool LLaMA ** \
+paper | dataset | [Code](https://github.com/OpenBMB/ToolBench) | [Tweet](https://twitter.com/TsingYoga/status/1662843257796333568?s=20) \
+Create high quality data to train LLMs
+
+
 > **peft** \
 doc | [code](https://github.com/huggingface/peft) \
 Library for parameter efficient fine tuning. Implements LoRA, P-Tuning, AdaLoRA etc..

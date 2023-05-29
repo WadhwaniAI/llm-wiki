@@ -7,8 +7,6 @@
 ## Open Zoo
 Models with Permissive Licenses
 
-
-
 > **Open LLaMA  ** \
 models | paper | dataset  | [code](https://github.com/openlm-research/open_llama) | blog |\
 An Open Source reproduction of LLaMA for permissive commerical uses.

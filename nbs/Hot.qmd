@@ -1,0 +1,6 @@
+# Hot
+> from the press
+
+>**BiomedGPT: BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks ** \
+[Paper](https://arxiv.org/abs/2305.17100) | [Code](https://github.com/taokz/BiomedGPT) | Blog | May 2023 \
+Object Detection, Captioning, NLI, VQA, Classification, Masked LMs

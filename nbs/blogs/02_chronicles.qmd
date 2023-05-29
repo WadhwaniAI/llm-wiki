@@ -2,6 +2,11 @@
 > perspectives as they occur
 
 
+> **AI is Eating The World ** \
+_The Gradient_\
+Paper | Code | [Blog](https://txt.cohere.com/ai-is-eating-the-world/) |  YouTube | [Twitter](https://twitter.com/cohereai/status/1657340071496777728?s=46&t=vB01cDnjOMGR22XIeuiGeA) | May 2023 \
+Gives a view into the architecture and building blocks needed.
+
 > **Voyager: LLMs play games better than RL ** \
 _The Gradient_\
 Paper | Code | [Blog](https://voyager.minedojo.org/) |  YouTube | Twitter | May 2023 \

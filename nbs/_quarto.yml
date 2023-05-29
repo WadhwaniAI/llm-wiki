@@ -46,6 +46,9 @@ website:
     search: true
     collapse-below: lg
     left:
+      - text: "Latest"
+        href: Hot.qmd
+      
       - text: "Models"
         href: models.qmd
       - text: "Datasets"
