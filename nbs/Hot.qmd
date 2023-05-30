@@ -1,6 +1,10 @@
 # Hot
 > from the press
 
+>**Direct Preference Optimization: Your Language Model is Secretly a Reward Model ** \
+[Paper](https://arxiv.org/abs/2305.18290) | Code | [Tweet](https://twitter.com/archit_sharma97/status/1663595372269408261?s=20) | 30-May 2023 \
+Dont need RL in training LLMs. Leads to quicker computation.
+
 >**Improving Factuality and Reasoning in Language Models through Multiagent Debate ** \
 [Paper](https://arxiv.org/abs/2305.14325) | Code | Blog | 30-May 2023 \
 LLM Co-Pilots working with each other.
