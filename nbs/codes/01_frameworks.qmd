@@ -82,3 +82,9 @@ A 90 line code to understand how to code and train a LM.
 > **cFormer** \
 doc | [code](https://github.com/NolanoOrg/cformers/) \
 Implementation in C/C++ to run LLMs on Laptops!
+
+
+## Deploy
+> **Lanarky** \
+[doc](https://lanarky.readthedocs.io/en/latest/) | [code](https://github.com/ajndkr/lanarky/) \
+Lanarky is an open-source framework to deploy LLM applications in production. It is built on top of FastAPI and comes with batteries included like LangChain

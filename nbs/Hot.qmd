@@ -1,6 +1,10 @@
 # Hot
 > from the press
 
+>**BigTrans: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages ** \
+[Paper](https://arxiv.org/abs/2305.18098) | [Code](https://github.com/ZNLP/BigTrans) | Blog | 30-May 2023 \
+Enhance the language translaion capablities of LLMs
+
 >**BiomedGPT: BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks ** \
-[Paper](https://arxiv.org/abs/2305.17100) | [Code](https://github.com/taokz/BiomedGPT) | Blog | May 2023 \
+[Paper](https://arxiv.org/abs/2305.17100) | [Code](https://github.com/taokz/BiomedGPT) | Blog | 29-May 2023 \
 Object Detection, Captioning, NLI, VQA, Classification, Masked LMs

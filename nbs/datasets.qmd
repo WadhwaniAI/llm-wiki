@@ -36,7 +36,7 @@ train a reward model, which helps an LLM align with Humans. Accessible from Hugg
 Models like Stable Vicuna are trained on this.
 
 ## Synthetic Data Creation Tools
-> ** Dynosuar: Data Curation Framework ** \
+> **Dynosuar: Data Curation Framework ** \
 paper | dataset | Code | [Blog](https://dynosaur-it.github.io/) \
 Use other LLMs to generate data.
 
