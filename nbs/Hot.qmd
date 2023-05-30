@@ -1,6 +1,16 @@
 # Hot
 > from the press
 
+>**Improving Factuality and Reasoning in Language Models through Multiagent Debate ** \
+[Paper](https://arxiv.org/abs/2305.14325) | Code | Blog | 30-May 2023 \
+LLM Co-Pilots working with each other.
+
+
+>**Model Dementia: Generated Data Makes Models Forget ** \
+[Paper](https://arxiv.org/abs/2305.17493) | Code | Blog | 30-May 2023 \
+What if all data we find on the internet is LLM generated?
+
+
 >**BigTrans: Augmenting Large Language Models with Multilingual Translation Capability over 100 Languages ** \
 [Paper](https://arxiv.org/abs/2305.18098) | [Code](https://github.com/ZNLP/BigTrans) | Blog | 30-May 2023 \
 Enhance the language translaion capablities of LLMs
