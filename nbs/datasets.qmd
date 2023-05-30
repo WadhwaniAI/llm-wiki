@@ -2,6 +2,12 @@
 > THE moat!
 
 ## Datasets
+
+
+> **Falcon Data  ** \
+[models](https://huggingface.co/tiiuae/falcon-40b-instruct) | [dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) | Code | [Tweet](https://twitter.com/qlhoest/status/1663548217022357509?s=20) | \
+5k+parquet files, 960m+samples, 500-600 tokens
+
 > **The Pile  ** \
 [paper](https://arxiv.org/abs/2101.00027) | [dataset](https://pile.eleuther.ai/) | Code | Blog | \
 An 825GB set consisting of 22 smaller, high quality datasets to train LLMs.\ 

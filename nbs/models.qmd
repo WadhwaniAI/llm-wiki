@@ -38,7 +38,7 @@ Based on GPT-Neo-X.
 Many in this category are, for most part, are derivates of LLaMA. Since LLaMA model weights were never released officially, the following only publish the weight deltas. Thefore, overall model is not permissive for commerical usages.
 
 > **Falcon  ** \
-[models](https://huggingface.co/tiiuae/falcon-40b-instruct) | paper| dataset| Code | [Blog](https://falconllm.tii.ae/) | \
+[models](https://huggingface.co/tiiuae/falcon-40b-instruct) | paper| [dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) | Code | [Blog](https://falconllm.tii.ae/) | \
 Not based on LLaMA. Can use for commerical purposes provided you are [not minting money](https://huggingface.co/tiiuae/falcon-7b-instruct/blob/main/LICENSE.txt) :)
 
 
