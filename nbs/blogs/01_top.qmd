@@ -82,6 +82,12 @@ _Andrej Karpathy _\
 Paper | Code | Blog |  [YouTube](https://www.youtube.com/watch?v=bZQun8Y4L2A) | Twitter | May 2023 \
 Nice overview. Thinking Fast (Transformers & Tokens) and Thinking Slow (Chain of Thoughts).
 
+> **Emergence in Large Language Models ** \
+_Jason Wei _\
+Paper | Code | Blog |  [YouTube](https://www.youtube.com/watch?v=0SuyDLjNR9g) | [Tweet](https://twitter.com/ShayneRedford/status/1663938255241506821?s=20) | May 2023 \
+Nice overview. Thinking Fast (Transformers & Tokens) and Thinking Slow (Chain of Thoughts).
+
+
 > **Reinforcement Learning from Human Feedback: Progress and Challenges  ** \
 _John Schulman_\
 Paper | Code | Blog |  [YouTube](https://www.youtube.com/watch?v=hhiLw5Q_UFg&t=2s) | Twitter | Apr 2023 \

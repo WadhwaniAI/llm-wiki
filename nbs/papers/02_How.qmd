@@ -6,7 +6,19 @@
 [Paper](https://arxiv.org/abs/2005.14165) | Code | Blog | May 2020 \
 Ditch the paradigm of pre-train, fine-tune. Towards One model, many tasks.
 
+## Probes
+
+>**Intriguing Properties of Quantization at Scale ** \
+[Paper](https://arxiv.org/abs/2305.19268) | [Code](https://github.com/xiamengzhou/training_trajectory_analysis) | [Tweet](https://twitter.com/sarahookr/status/1663925847890497539?s=20) |31-May 2023 \
+Are quantization cliffs in performance solely a factor of scale?\ Apparently not. Quantize models ranging in size from 410M to 52B with minimal degradation in performance
+
+>**Training Trajectories of Language Models Across Scales ** \
+[Paper](https://arxiv.org/abs/2212.09803) | [Code](https://github.com/xiamengzhou/training_trajectory_analysis) | [Tweet](https://twitter.com/xiamengzhou/status/1663742017568899073?s=20) |31-May 2023 \
+How do LLMs learn during training? Touches aspects like double-descent, hallucination.\
+Perplexity is a strong predictor of in-context learning performance.
+
 ## In-Context Learning
+
 > **What Can Transformers Learn In-Context? A Case Study of Simple Function Classes **\
 [Paper](https://arxiv.org/abs/2208.01066) | Code | Blog | Aug 2022 \
 Using Linear models as a probing device - shows what ICL does?

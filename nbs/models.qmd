@@ -11,6 +11,10 @@ Models with Permissive Licenses
 models | paper | dataset  | [code](https://github.com/openlm-research/open_llama) | blog |\
 An Open Source reproduction of LLaMA for permissive commerical uses.
 
+> **Falcon  ** \
+[models](https://huggingface.co/tiiuae/falcon-40b-instruct) | paper| [dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) | Code | [Blog](https://falconllm.tii.ae/) | \
+Not based on LLaMA. Can use for commerical purposes.
+
 
 > **GPT-Neo-X  ** \
 [models](https://huggingface.co/docs/transformers/model_doc/gpt_neox) | [paper](https://arxiv.org/abs/2304.01373) | [dataset](https://pile.eleuther.ai/)  | [code](https://github.com/EleutherAI/gpt-neox) | blog |\
@@ -37,9 +41,6 @@ Based on GPT-Neo-X.
 ## Semi-Open Zoo
 Many in this category are, for most part, are derivates of LLaMA. Since LLaMA model weights were never released officially, the following only publish the weight deltas. Thefore, overall model is not permissive for commerical usages.
 
-> **Falcon  ** \
-[models](https://huggingface.co/tiiuae/falcon-40b-instruct) | paper| [dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) | Code | [Blog](https://falconllm.tii.ae/) | \
-Not based on LLaMA. Can use for commerical purposes provided you are [not minting money](https://huggingface.co/tiiuae/falcon-7b-instruct/blob/main/LICENSE.txt) :)
 
 
 > **Guanaco  ** \
