@@ -2,6 +2,11 @@
 > perspectives as they occur
 
 
+> **Evaluating and uncovering open LLMs ** \
+_Nathan Lambert_\
+Paper | Code | [Blog](https://www.interconnects.ai/p/evaluating-open-llms) |  YouTube | Twitter | May 2023 \
+
+
 > **AI is Eating The World ** \
 _The Gradient_\
 Paper | Code | [Blog](https://txt.cohere.com/ai-is-eating-the-world/) |  YouTube | [Twitter](https://twitter.com/cohereai/status/1657340071496777728?s=46&t=vB01cDnjOMGR22XIeuiGeA) | May 2023 \

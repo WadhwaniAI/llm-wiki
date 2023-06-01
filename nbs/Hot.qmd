@@ -3,13 +3,13 @@
 
 
 
->** ** \
-[Paper](Likelihood-Based Diffusion Language Models) | [Code](https://github.com/xiamengzhou/training_trajectory_analysis) | [Tweet](https://twitter.com/__ishaan/status/1663992335464538117?s=20) |1-June 2023 \
+>**Likelihood-Based Diffusion Language Models ** \
+[Paper](https://t.co/Bpa6dpxcrQ) | Code | [Tweet](https://twitter.com/__ishaan/status/1663992335464538117?s=20) |1-June 2023 \
 Diffusion comes to LLMs.
 
 
 >**Training Trajectories of Language Models Across Scales ** \
-[Paper](https://arxiv.org/abs/2212.09803) | [Code](https://github.com/xiamengzhou/training_trajectory_analysis) | [Tweet](hhttps://twitter.com/xiamengzhou/status/1663742017568899073?s=20) |31-May 2023 \
+[Paper](https://arxiv.org/abs/2212.09803) | [Code](https://github.com/xiamengzhou/training_trajectory_analysis) | [Tweet](https://twitter.com/xiamengzhou/status/1663742017568899073?s=20) |31-May 2023 \
 How do LLMs learn during training? Touches aspects like double-descent, hallucination.\
 Perplexity is a strong predictor of in-context learning performance.
 
