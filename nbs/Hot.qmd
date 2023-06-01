@@ -2,10 +2,18 @@
 > from the press
 
 
+>**Let’s Verify Step by Step ** \
+[Paper](https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervision/Lets_Verify_Step_by_Step.pdf) | [Dataset](https://github.com/openai/prm800k) | [Blog](https://openai.com/research/improving-mathematical-reasoning-with-process-supervision) | 31-May 2023 \
+to solve math problems with CoT
+
 
 >**Likelihood-Based Diffusion Language Models ** \
 [Paper](https://t.co/Bpa6dpxcrQ) | Code | [Tweet](https://twitter.com/__ishaan/status/1663992335464538117?s=20) |1-June 2023 \
 Diffusion comes to LLMs.
+
+>**Tree of Thoughts: Deliberate Problem Solving with Large Language Models **\
+[Paper](https://arxiv.org/abs/2305.10601) | Code | Blog | May 2023 \
+Generalzie CoT and solve harder problems
 
 
 >**Training Trajectories of Language Models Across Scales ** \
