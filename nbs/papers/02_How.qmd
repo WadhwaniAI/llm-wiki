@@ -8,8 +8,13 @@ Ditch the paradigm of pre-train, fine-tune. Towards One model, many tasks.
 
 ## Probes
 
+>**Birth of a Transformer: A Memory Viewpoint ** \
+[Paper](https://arxiv.org/abs/2306.00802) | Dataset | Blog | 2-Jun 2023 \
+Transfomers form backbones in LLMs. How do they work? Thinking fast and slow.
+Training data -> Associative Memory. In-context learning ->  Induction Heads.
+
 >**Intriguing Properties of Quantization at Scale ** \
-[Paper](https://arxiv.org/abs/2305.19268) | [Code](https://github.com/xiamengzhou/training_trajectory_analysis) | [Tweet](https://twitter.com/sarahookr/status/1663925847890497539?s=20) |31-May 2023 \
+[Paper](https://arxiv.org/abs/2305.19268) | Code | [Tweet](https://twitter.com/sarahookr/status/1663925847890497539?s=20) |31-May 2023 \
 Are quantization cliffs in performance solely a factor of scale?\ Apparently not. Quantize models ranging in size from 410M to 52B with minimal degradation in performance
 
 >**Training Trajectories of Language Models Across Scales ** \

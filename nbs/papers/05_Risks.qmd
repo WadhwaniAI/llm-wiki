@@ -2,6 +2,9 @@
 > too good to be true?
 
 
+> **From Human-Centered to Social-Centered Artificial Intelligence: Assessing ChatGPT's Impact through Disruptive Events **\
+[Paper](https://arxiv.org/abs/2306.00227) | Code | Blog | May 2023 \
+Risk profiling LLMs in terms of hallucinations - rely on a Human-centered, individualistic evaluation framework. Do we need to a societal view as well? How doe proliferation of chatGPT like models affect societies?
 
 > **The False Promise of Imitating Proprietary LLMs **\
 [Paper](https://arxiv.org/abs/2305.15717) | Code | Blog | May 2023 \

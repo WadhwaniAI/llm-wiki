@@ -1,8 +1,19 @@
 # Hot
 > from the press
 
+>**Birth of a Transformer: A Memory Viewpoint ** \
+[Paper](https://arxiv.org/abs/2306.00802) | Dataset | Blog | 2-Jun 2023 \
+Transfomers form backbones in LLMs. How do they work? Thinking fast and slow.
+Training data -> Associative Memory. In-context learning ->  Induction Heads.
+
+
+>**Editing Commonsense Knowledge in GPT ** \
+[Paper](https://arxiv.org/abs/2305.14956) | Dataset | Blog | 2-Jun 2023 \
+Outperfm fine-tuning by model-editing based on feedback data.
+
+
 >**Improving accuracy of GPT-3/4 results on biomedical data using a retrieval-augmented language model ** \
-[Paper](https://arxiv.org/abs/2305.17116) | Dataset | Blog | 2-May 2023 \
+[Paper](https://arxiv.org/abs/2305.17116) | Dataset | Blog | 2-June 2023 \
 Applications of RAG (Retrieval Augmented Generation) and evaluation against GPT-4. It is a good pattern to apply!
 
 >**SQL-PaLM: Improved Large Language ModelAdaptation for Text-to-SQL ** \
