@@ -1,6 +1,14 @@
 # Datasets
 > THE moat!
 
+
+
+> **Datasets  Hub  ** \
+[datasets](https://github.com/Zjh-819/LLMDataHub) |\
+Tagged by Task like CoT, SFT, PT,...
+
+
+
 ## Datasets
 
 

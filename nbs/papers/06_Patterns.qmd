@@ -1,6 +1,15 @@
 # Design Patterns
 > How should LLMs be used & applied?
 
+>**Improving accuracy of GPT-3/4 results on biomedical data using a retrieval-augmented language model ** \
+[Paper](https://arxiv.org/abs/2305.17116) | Dataset | Blog | 2-May 2023 \
+Applications of RAG (Retrieval Augmented Generation) and evaluation against GPT-4. It is a good pattern to apply!
+
+>**SQL-PaLM: Improved Large Language ModelAdaptation for Text-to-SQL ** \
+[Paper](https://arxiv.org/abs/2306.00739) | Dataset | Blog | 2-May 2023 \
+A tailed model to inteact with DBs. Another important LLM pattern.
+
+
 >**Let’s Verify Step by Step ** \
 [Paper](https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervision/Lets_Verify_Step_by_Step.pdf) | [Dataset](https://github.com/openai/prm800k) | [Blog](https://openai.com/research/improving-mathematical-reasoning-with-process-supervision) | 31-May 2023 \
 to solve math problems with CoT
