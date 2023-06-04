@@ -3,6 +3,7 @@
 
 ## Leaderboards
 [ChatBot Arena](https://lmsys.org/blog/2023-05-10-leaderboard/). Elo rating for models (public and private)
+[LLM Collection]([ChatBot Arena](https://lmsys.org/blog/2023-05-10-leaderboard/). Collection of many LLMs in one place -  check out other sections as well on prompt engineering.
 
 ## Open Zoo
 Models with Permissive Licenses
