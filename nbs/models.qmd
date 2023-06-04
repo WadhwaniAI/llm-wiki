@@ -4,7 +4,7 @@
 ## Leaderboards
 [ChatBot Arena](https://lmsys.org/blog/2023-05-10-leaderboard/). Elo rating for models (public and private)
 
-[LLM Collection](https://lmsys.org/blog/2023-05-10-leaderboard/). Collection of many LLMs in one place -  check out other sections as well on prompt engineering.
+[LLM Collection](https://www.promptingguide.ai/models/collection). Collection of many LLMs in one place -  check out other sections as well on prompt engineering.
 
 ## Open Zoo
 Models with Permissive Licenses
