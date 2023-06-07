@@ -3,6 +3,11 @@
 
 ## June
 
+>**Data Curation Alone Can Stabilize In-context Learning ** \
+[Paper](https://arxiv.org/abs/2212.10378) | Dataset | Tweet | 6-Jun 2023 \
+Reemphasize - data is the moat. data quality matters. Recent example: Falcon is trained on cleaned data, and performs well, with low volume data setup.
+
+
 >**SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression ** \
 [Paper](https://arxiv.org/abs/2306.03078) | Dataset | [Tweet](https://twitter.com/Tim_Dettmers/status/1666076553665744896?s=20) | 6-Jun 2023 \
 LLMs can fit on your phones now.
