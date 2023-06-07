@@ -1,6 +1,47 @@
 # Hot
 > from the press
 
+## June
+
+>**SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression ** \
+[Paper](https://arxiv.org/abs/2306.03078) | Dataset | [Tweet](https://twitter.com/Tim_Dettmers/status/1666076553665744896?s=20) | 6-Jun 2023 \
+LLMs can fit on your phones now.
+
+
+>**Deductive Verification of Chain-of-Thought Reasoning ** \
+[Paper](https://arxiv.org/abs/2306.03872) | Dataset | [Tweet](https://twitter.com/_akhaliq/status/1666252848781225987?s=20) | 6-Jun 2023 \
+CoT: Intermediate steps can also hallucinations. So, apply logic checks.
+
+
+>**ScoNe: Benchmarking Negation Reasoning in Language Models With Fine-Tuning and In-Context Learning ** \
+[Paper](https://arxiv.org/abs/2305.19426) | Dataset | [Tweet](https://twitter.com/ChrisGPotts/status/1666201393697558529?s=20) | 6-Jun 2023 \
+Can LLMs handle negation. Easy, not!
+
+
+>**ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory ** \
+[Paper](https://arxiv.org/abs/2306.03901) | Dataset | [Tweet](https://twitter.com/omarsar0/status/1666254609524961282?s=20) | 6-Jun 2023 \
+Have LLMs access symbolic memory for complex task planning and execution. 
+
+
+>**Enabling Large Language Models to Generate Text with Citations ** \
+[Paper](https://arxiv.org/abs/2305.14627) | Dataset | [Tweet](https://twitter.com/gaotianyu1350/status/1661186546907639808?s=20) | 5-Jun 2023 \
+Asking an LLM to cite seems to be a way of reducing hallucinations, and also allows verification. 
+
+>**Orca: Progressive Learning from Complex Explanation Traces of GPT-4 ** \
+[Paper](https://arxiv.org/abs/2306.02707) | Dataset | [Tweet](https://twitter.com/johnjnay/status/1665906453587034112?s=20) | 5-Jun 2023 \
+Teach smaller LLM via a bigger LLMs. But watchful of pitfalls of imitation.
+
+
+>**LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion ** \
+[Paper](https://arxiv.org/abs/2306.02561) | Dataset | [Tweet](https://twitter.com/_akhaliq/status/1665887472335695873?s=20) | 5-Jun 2023 \
+Another co-op LLM idea.
+
+
+>**Just Ask for Calibration: Strategies for Eliciting Calibrated Confidence Scores from Language Models Fine-Tuned with Human Feedback ** \
+[Paper](https://arxiv.org/abs/2305.14975) | Dataset | [Tweet](https://twitter.com/topofmlsafety/status/1665732960388100096?s=20) | 5-Jun 2023 \
+Calibration in NLP is hard! Now, just ask the LLM to self-report.
+
+
 >**ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing ** \
 [Paper](https://arxiv.org/abs/2306.00622) | Dataset | [Tweet](https://twitter.com/jd92wang/status/1665596397788319744?s=20) | 5-Jun 2023 \
 Use LLMs as reviewers:
@@ -47,6 +88,7 @@ Applications of RAG (Retrieval Augmented Generation) and evaluation against GPT-
 [Paper](https://arxiv.org/abs/2306.00739) | Dataset | Blog | 2-May 2023 \
 A tailed model to inteact with DBs. Another important LLM pattern.
 
+## May
 
 >**Let’s Verify Step by Step ** \
 [Paper](https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervision/Lets_Verify_Step_by_Step.pdf) | [Dataset](https://github.com/openai/prm800k) | [Blog](https://openai.com/research/improving-mathematical-reasoning-with-process-supervision) | 31-May 2023 \

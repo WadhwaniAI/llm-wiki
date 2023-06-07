@@ -15,7 +15,8 @@ An Open Source reproduction of LLaMA for permissive commerical uses.
 
 > **Falcon  ** \
 [models](https://huggingface.co/tiiuae/falcon-40b-instruct) | paper| [dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) | Code | [Blog](https://falconllm.tii.ae/) | \
-Not based on LLaMA. Can use for commerical purposes.
+Not based on LLaMA. Can use for commerical purposes. Now [finetune](https://huggingface.co/blog/falcon).
+
 
 
 > **GPT-Neo-X  ** \

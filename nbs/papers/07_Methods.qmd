@@ -3,6 +3,11 @@
 
 
 ## PEFT
+
+>**SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression ** \
+[Paper](https://arxiv.org/abs/2306.03078) | Dataset | [Tweet](https://twitter.com/Tim_Dettmers/status/1666076553665744896?s=20) | 6-Jun 2023 \
+LLMs can fit on your phones now.
+
 > **LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model **\
 [Paper](https://arxiv.org/abs/2304.15010) | [Code](https://github.com/ZrrSkywalker/LLaMA-Adapter/tree/main/imagebind_LLM) | [Tweet](https://twitter.com/lupantech/status/1664316926003396608?s=20)| Jun 2023 \
 Via this Adaptor, LLM can perform open-ended multi-modal instructions by merely introducing 14M parameters over LLaMA. 
@@ -49,3 +54,14 @@ Use small models to provide the context. Big models will do better.
 > **Multimodal Chain-of-Thought Reasoning in Language Models **\
 [Paper](https://arxiv.org/abs/2302.00923) | Code | Blog | date \
 Reason with multiple modlas in the chain of thoughts!
+
+## Beyond Words
+
+> **Unifying (Machine) Vision via Counterfactual World Modeling **\
+[Paper](https://arxiv.org/abs/2306.01828) | Code | Blog | Jun 2023 \
+LLMs can handle vision & speech
+
+> **PolyVoice: Language Models for Speech to Speech Translation **\
+[Paper](https://arxiv.org/abs/2306.02982) | Code | [Tweet](https://twitter.com/_akhaliq/status/1665927833095471105?s=20) | Jun 2023 \
+LLMs can handle vision & speech
+

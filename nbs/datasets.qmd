@@ -11,6 +11,9 @@ Tagged by Task like CoT, SFT, PT,...
 
 ## Datasets
 
+>**MultiLegalPile: A 689GB Multilingual Legal Corpus ** \
+[Paper](https://arxiv.org/abs/2306.02069) | [Dataset](https://huggingface.co/datasets/joelito/Multi_Legal_Pile) | [Code](https://github.com/JoelNiklaus/LegalDatasets) | [Tweet](https://twitter.com/joelniklaus/status/1665983164764897281?s=20) | 2-Jun 2023 \
+Legal Data - LegalGPT :P
 
 > **Falcon Data  ** \
 [models](https://huggingface.co/tiiuae/falcon-40b-instruct) | [dataset](https://huggingface.co/datasets/tiiuae/falcon-refinedweb) | Code | [Tweet](https://twitter.com/qlhoest/status/1663548217022357509?s=20) | \

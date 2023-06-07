@@ -129,10 +129,22 @@ A debate rages again - this time with strong empircal success of neural language
 
 
 ## Build
+> **GPT in 60 Lines of NumPy ** \
+_Jay Moody_\
+Paper | [Code](https://github.com/jaymody/picoGPT) | [Blog](https://jaykmody.com/blog/gpt-from-scratch/) |  YouTube | [Tweet](https://twitter.com/AssemblyAI/status/1665716556171444226?s=20) | Jun 2023 \
+For educational purposes
+
+
+> **Let's build GPT from scratch ** \
+_Andrej Karpathy_\
+Paper | [Code](https://github.com/karpathy/nanoGPT) | Blog |  [YouTube](https://www.youtube.com/watch?v=kCc8FmEb1nY) | Twitter | Jan 2023 \
+Hmm, timely to steer out of ambiguity. Trade-off hype for reality. Performance, Latency, Cost - matter more than novelty, as always!
+
+
 
 > **Building LLM applications for production ** \
 _Chip Huyen_\
-Paper | Code | [Blog]() |  YouTube | Twitter | Apr 2023 \
+Paper | Code | [Blog](https://huyenchip.com/2023/04/11/llm-engineering.html) |  YouTube | Twitter | Apr 2023 \
 Hmm, timely to steer out of ambiguity. Trade-off hype for reality. Performance, Latency, Cost - matter more than novelty, as always!
 
 > **How we made Cerebras-GPT ** \

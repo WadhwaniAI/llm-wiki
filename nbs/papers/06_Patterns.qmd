@@ -1,6 +1,34 @@
 # Design Patterns
 > How should LLMs be used & applied?
 
+>**Deductive Verification of Chain-of-Thought Reasoning ** \
+[Paper](https://arxiv.org/abs/2306.03872) | Dataset | [Tweet](https://twitter.com/_akhaliq/status/1666252848781225987?s=20) | 6-Jun 2023 \
+CoT: Intermediate steps can also hallucinations. So, apply logic checks.
+
+
+>**ScoNe: Benchmarking Negation Reasoning in Language Models With Fine-Tuning and In-Context Learning ** \
+[Paper](https://arxiv.org/abs/2305.19426) | Dataset | [Tweet](https://twitter.com/ChrisGPotts/status/1666201393697558529?s=20) | 6-Jun 2023 \
+Can LLMs handle negation. Easy, not!
+
+
+>**ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory ** \
+[Paper](https://arxiv.org/abs/2306.03901) | Dataset | [Tweet](https://twitter.com/omarsar0/status/1666254609524961282?s=20) | 6-Jun 2023 \
+Have LLMs access symbolic memory for complex task planning and execution. 
+
+
+>**Enabling Large Language Models to Generate Text with Citations ** \
+[Paper](https://arxiv.org/abs/2305.14627) | Dataset | [Tweet](https://twitter.com/gaotianyu1350/status/1661186546907639808?s=20) | 5-Jun 2023 \
+Asking an LLM to cite seems to be a way of reducing hallucinations, and also allows verification. 
+
+
+>**LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion ** \
+[Paper](https://arxiv.org/abs/2306.02561) | Dataset | [Tweet](https://twitter.com/_akhaliq/status/1665887472335695873?s=20) | 5-Jun 2023 \
+Another co-op LLM idea.
+
+>**ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing ** \
+[Paper](https://arxiv.org/abs/2306.00622) | Dataset | [Tweet](https://twitter.com/jd92wang/status/1665596397788319744?s=20) | 5-Jun 2023 \
+Use LLMs as reviewers:
+
 >**Reimagining Retrieval Augmented Language Models for Answering Queries ** \
 [Paper](https://arxiv.org/abs/2306.01061) | Dataset | [Tweet](https://twitter.com/_akhaliq/status/1665554751520485376?s=20) | 2-Jun 2023 \
 Semi-parametric architectures can be enhanced with views, a query analyzer/planner, and provenance to make a significantly more powerful system for question answering in terms of accuracy and efficiency, and potentially for other NLP tasks
