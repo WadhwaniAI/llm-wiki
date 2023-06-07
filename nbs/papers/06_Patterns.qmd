@@ -1,6 +1,15 @@
 # Design Patterns
 > How should LLMs be used & applied?
 
+>**Reimagining Retrieval Augmented Language Models for Answering Queries ** \
+[Paper](https://arxiv.org/abs/2306.01061) | Dataset | [Tweet](https://twitter.com/_akhaliq/status/1665554751520485376?s=20) | 2-Jun 2023 \
+Semi-parametric architectures can be enhanced with views, a query analyzer/planner, and provenance to make a significantly more powerful system for question answering in terms of accuracy and efficiency, and potentially for other NLP tasks
+
+>**Decision-Oriented Dialogue for Human-AI Collaboration ** \
+[Paper](https://arxiv.org/abs/2305.20076) | [Code](https://github.com/jlin816/dialop) | [Tweet](https://twitter.com/realJessyLin/status/1664410190719111168?s=20) | 2-Jun 2023 \
+agents + humans collab to solve hard everyday problems
+
+
 >**Improving accuracy of GPT-3/4 results on biomedical data using a retrieval-augmented language model ** \
 [Paper](https://arxiv.org/abs/2305.17116) | Dataset | Blog | 2-May 2023 \
 Applications of RAG (Retrieval Augmented Generation) and evaluation against GPT-4. It is a good pattern to apply!

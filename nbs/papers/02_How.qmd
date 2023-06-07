@@ -8,6 +8,11 @@ Ditch the paradigm of pre-train, fine-tune. Towards One model, many tasks.
 
 ## Probes
 
+>**Eliciting the Translation Ability of Large Language Models via Multilingual Finetuning with Translation Instructions ** \
+[Paper](https://arxiv.org/abs/2305.15083) | Dataset | Blog | Jun 2023 \
+Even when not explicitly trained language translation tasks, LLMs exhibit good zero shot ability.
+
+
 >**Birth of a Transformer: A Memory Viewpoint ** \
 [Paper](https://arxiv.org/abs/2306.00802) | Dataset | Blog | 2-Jun 2023 \
 Transfomers form backbones in LLMs. How do they work? Thinking fast and slow.

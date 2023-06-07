@@ -3,6 +3,10 @@
 
 
 ## PEFT
+> **LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model **\
+[Paper](https://arxiv.org/abs/2304.15010) | [Code](https://github.com/ZrrSkywalker/LLaMA-Adapter/tree/main/imagebind_LLM) | [Tweet](https://twitter.com/lupantech/status/1664316926003396608?s=20)| Jun 2023 \
+Via this Adaptor, LLM can perform open-ended multi-modal instructions by merely introducing 14M parameters over LLaMA. 
+
 > **QLoRA: Efficient Finetuning of Quantized LLMs **\
 [Paper](https://arxiv.org/abs/2305.14314) | [Code](https://github.com/artidoro/qlora) | Blog| May 2023 \
 Quantize a pre-trained model, add an adapter and fine-tune via LoRA: a reciepe for creating new LLMs
@@ -18,6 +22,12 @@ Without any retraining, prune large models under few hours
 > **Cramming: Training a Language Model on a Single GPU in One Day **\
 [Paper](https://arxiv.org/abs/2212.14034) | Code | Blog | Dec 2022 \
 Cram It :)
+
+## Build-TRain
+>**Blockwise Parallel Transformer for Long Context Large Models ** \
+[Paper](https://arxiv.org/abs/2305.19370) | Dataset | [Tweet](https://twitter.com/haoliuhl/status/1664396377252667393?s=20) | 2-Jun 2023 \
+Train 7B models with over 130K or 13B models with over 64K context windows on just 8 A100 GPUs!
+
 
 ## RL
 > **SLiC-HF: Sequence Likelihood Calibration with Human Feedback  **\
