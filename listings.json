@@ -1,0 +1,35 @@
+[
+  {
+    "listing": "/papers/index.html",
+    "items": [
+      "/papers/03_Apps.html",
+      "/papers/01_Classics.html",
+      "/papers/06_Patterns.html",
+      "/papers/07_Methods.html",
+      "/papers/05_Risks.html",
+      "/papers/04_Hope.html",
+      "/papers/08_Survey.html",
+      "/papers/02_How.html"
+    ]
+  },
+  {
+    "listing": "/blogs/index.html",
+    "items": [
+      "/blogs/02_chronicles.html",
+      "/blogs/01_top.html"
+    ]
+  },
+  {
+    "listing": "/datasets/index.html",
+    "items": [
+      "/datasets/01_data.html"
+    ]
+  },
+  {
+    "listing": "/codes/index.html",
+    "items": [
+      "/codes/02_demos.html",
+      "/codes/01_frameworks.html"
+    ]
+  }
+]

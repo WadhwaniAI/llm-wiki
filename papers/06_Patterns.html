@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>LLM-Wiki – patterns</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">LLM-Wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../Hot.html" rel="" target="">
+ <span class="menu-text">Latest</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../models.html" rel="" target="">
+ <span class="menu-text">Models</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets.html" rel="" target="">
+ <span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-wadhwani-ai" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Wadhwani AI</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-wadhwani-ai">    
+        <li>
+    <a class="dropdown-item" href="https://wadhwaniai.org/about/" rel="" target=""><i class="bi bi-people-fill" role="img">
+</i> 
+ <span class="dropdown-text">About Us</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://wadhwaniai.org/blog/" rel="" target=""><i class="bi bi-pen-fill" role="img">
+</i> 
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/WadhwaniAI" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/WadhwaniAI" rel="" target=""><i class="bi bi-twitter" role="img" aria-label="wadhwaniai.org Twitter">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../papers/01_Classics.html">Papers</a></li><li class="breadcrumb-item"><a href="../papers/06_Patterns.html">Design Patterns</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LLM-Wiki</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Papers</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/01_Classics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/02_How.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The How &amp; Why</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/03_Apps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Applications</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/04_Hope.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sparks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/05_Risks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sceptics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/06_Patterns.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Design Patterns</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/07_Methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Methods</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/08_Survey.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Survey</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Blogs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../blogs/01_top.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Top</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../blogs/02_chronicles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chronicles</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Tools</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../codes/01_frameworks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Frameworks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../codes/02_demos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demos</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#design-patterns" id="toc-design-patterns" class="nav-link active" data-scroll-target="#design-patterns">Design Patterns</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/wadhwaniai/llm-wiki/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="design-patterns" class="level1">
+<h1>Design Patterns</h1>
+<blockquote class="blockquote">
+<p>How should LLMs be used &amp; applied?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Deductive Verification of Chain-of-Thought Reasoning </strong><br>
+<a href="https://arxiv.org/abs/2306.03872">Paper</a> | Dataset | <a href="https://twitter.com/_akhaliq/status/1666252848781225987?s=20">Tweet</a> | 6-Jun 2023<br>
+CoT: Intermediate steps can also hallucinations. So, apply logic checks.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>ScoNe: Benchmarking Negation Reasoning in Language Models With Fine-Tuning and In-Context Learning </strong><br>
+<a href="https://arxiv.org/abs/2305.19426">Paper</a> | Dataset | <a href="https://twitter.com/ChrisGPotts/status/1666201393697558529?s=20">Tweet</a> | 6-Jun 2023<br>
+Can LLMs handle negation. Easy, not!</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory </strong><br>
+<a href="https://arxiv.org/abs/2306.03901">Paper</a> | Dataset | <a href="https://twitter.com/omarsar0/status/1666254609524961282?s=20">Tweet</a> | 6-Jun 2023<br>
+Have LLMs access symbolic memory for complex task planning and execution.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Enabling Large Language Models to Generate Text with Citations </strong><br>
+<a href="https://arxiv.org/abs/2305.14627">Paper</a> | Dataset | <a href="https://twitter.com/gaotianyu1350/status/1661186546907639808?s=20">Tweet</a> | 5-Jun 2023<br>
+Asking an LLM to cite seems to be a way of reducing hallucinations, and also allows verification.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>LLM-Blender: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion </strong><br>
+<a href="https://arxiv.org/abs/2306.02561">Paper</a> | Dataset | <a href="https://twitter.com/_akhaliq/status/1665887472335695873?s=20">Tweet</a> | 5-Jun 2023<br>
+Another co-op LLM idea.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>ReviewerGPT? An Exploratory Study on Using Large Language Models for Paper Reviewing </strong><br>
+<a href="https://arxiv.org/abs/2306.00622">Paper</a> | Dataset | <a href="https://twitter.com/jd92wang/status/1665596397788319744?s=20">Tweet</a> | 5-Jun 2023<br>
+Use LLMs as reviewers:</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Reimagining Retrieval Augmented Language Models for Answering Queries </strong><br>
+<a href="https://arxiv.org/abs/2306.01061">Paper</a> | Dataset | <a href="https://twitter.com/_akhaliq/status/1665554751520485376?s=20">Tweet</a> | 2-Jun 2023<br>
+Semi-parametric architectures can be enhanced with views, a query analyzer/planner, and provenance to make a significantly more powerful system for question answering in terms of accuracy and efficiency, and potentially for other NLP tasks</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Decision-Oriented Dialogue for Human-AI Collaboration </strong><br>
+<a href="https://arxiv.org/abs/2305.20076">Paper</a> | <a href="https://github.com/jlin816/dialop">Code</a> | <a href="https://twitter.com/realJessyLin/status/1664410190719111168?s=20">Tweet</a> | 2-Jun 2023<br>
+agents + humans collab to solve hard everyday problems</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Improving accuracy of GPT-3/4 results on biomedical data using a retrieval-augmented language model </strong><br>
+<a href="https://arxiv.org/abs/2305.17116">Paper</a> | Dataset | Blog | 2-May 2023<br>
+Applications of RAG (Retrieval Augmented Generation) and evaluation against GPT-4. It is a good pattern to apply!</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>SQL-PaLM: Improved Large Language ModelAdaptation for Text-to-SQL </strong><br>
+<a href="https://arxiv.org/abs/2306.00739">Paper</a> | Dataset | Blog | 2-May 2023<br>
+A tailed model to inteact with DBs. Another important LLM pattern.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Let’s Verify Step by Step </strong><br>
+<a href="https://cdn.openai.com/improving-mathematical-reasoning-with-process-supervision/Lets_Verify_Step_by_Step.pdf">Paper</a> | <a href="https://github.com/openai/prm800k">Dataset</a> | <a href="https://openai.com/research/improving-mathematical-reasoning-with-process-supervision">Blog</a> | 31-May 2023<br>
+to solve math problems with CoT</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Tree of Thoughts: Deliberate Problem Solving with Large Language Models </strong><br>
+<a href="https://arxiv.org/abs/2305.10601">Paper</a> | Code | Blog | May 2023<br>
+Generalzie CoT and solve harder problems</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Interactive Natural Language Processing </strong><br>
+<a href="https://arxiv.org/abs/2305.13246">Paper</a> | Code | Blog | May 2023<br>
+LLMs as Agents. This seems to be a dominant pattern. <em>This survey serves as an entry point for researchers who are interested in this rapidly evolving area and offers a broad view of the current landscape and future trajectory of iNLP</em>.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Reasoning with Language Model is Planning with World Model </strong><br>
+<a href="https://arxiv.org/abs/2305.14992">Paper</a> | Code | Blog | May 2023<br>
+LLMs as world models, reasoning &amp; planning agents.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>How Does Generative Retrieval Scale to Millions of Passages? </strong><br>
+<a href="https://arxiv.org/abs/2305.11841">Paper</a> | Code | Blog | May 2023<br>
+An emerging pattern in LLMs is Retriveal Augmented Information Retrievel. Can Google search be made generative?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Small Models are Valuable Plug-ins for Large Language Models </strong><br>
+<a href="https://arxiv.org/abs/2305.08848">Paper</a> | Code | Blog| May 2023<br>
+Use small models to provide the context. Big models will do better.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Crawling the Internal Knowledge-Base of Language Models </strong><br>
+<a href="https://arxiv.org/abs/2301.12810">Paper</a> | Code | Blog| April 2023<br>
+Interesting. Thefore, treat LLMs as indexed web, and create structured data from unstructred web.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face </strong><br>
+<a href="https://arxiv.org/abs/2303.17580">Paper</a> | Code | Blog | Mar 2023<br>
+LLMs as controllers.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Collaborating with language models for embodied reasoning </strong><br>
+<a href="https://arxiv.org/abs/2302.00763">Paper</a> | Code | Blog | Feb 2023<br>
+A planner- actor- reporter: multiple LLMs work with each other.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents </strong><br>
+<a href="https://arxiv.org/abs/2302.01560">Paper</a> | Code | Blog | Feb 2023<br>
+Better error corrections by breaking the task into chunks!</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing </strong><br>
+<a href="https://arxiv.org/abs/2107.13586">Paper</a> | Code | Blog | Jul 2021<br>
+The new way of solving NLP tasks: pre-train, prompt, and predict.</p>
+</blockquote>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

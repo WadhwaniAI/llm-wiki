@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>LLM-Wiki – top</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">LLM-Wiki</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../Hot.html" rel="" target="">
+ <span class="menu-text">Latest</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../models.html" rel="" target="">
+ <span class="menu-text">Models</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../datasets.html" rel="" target="">
+ <span class="menu-text">Datasets</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-wadhwani-ai" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Wadhwani AI</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-wadhwani-ai">    
+        <li>
+    <a class="dropdown-item" href="https://wadhwaniai.org/about/" rel="" target=""><i class="bi bi-people-fill" role="img">
+</i> 
+ <span class="dropdown-text">About Us</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://wadhwaniai.org/blog/" rel="" target=""><i class="bi bi-pen-fill" role="img">
+</i> 
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/WadhwaniAI" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/WadhwaniAI" rel="" target=""><i class="bi bi-twitter" role="img" aria-label="wadhwaniai.org Twitter">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../blogs/01_top.html">Blogs</a></li><li class="breadcrumb-item"><a href="../blogs/01_top.html">Top</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LLM-Wiki</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Papers</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/01_Classics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Classics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/02_How.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The How &amp; Why</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/03_Apps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Applications</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/04_Hope.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sparks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/05_Risks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sceptics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/06_Patterns.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Design Patterns</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/07_Methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Methods</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../papers/08_Survey.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Survey</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Blogs</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../blogs/01_top.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Top</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../blogs/02_chronicles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chronicles</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Tools</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../codes/01_frameworks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Frameworks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../codes/02_demos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Demos</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#top" id="toc-top" class="nav-link active" data-scroll-target="#top">Top</a>
+  <ul>
+  <li><a href="#understanding" id="toc-understanding" class="nav-link" data-scroll-target="#understanding">Understanding</a></li>
+  <li><a href="#patterns" id="toc-patterns" class="nav-link" data-scroll-target="#patterns">Patterns</a></li>
+  <li><a href="#perspectives" id="toc-perspectives" class="nav-link" data-scroll-target="#perspectives">Perspectives</a></li>
+  <li><a href="#build" id="toc-build" class="nav-link" data-scroll-target="#build">Build</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/wadhwaniai/llm-wiki/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="top" class="level1">
+<h1>Top</h1>
+<blockquote class="blockquote">
+<p>insightful blogs and other resources</p>
+</blockquote>
+<section id="understanding" class="level2">
+<h2 class="anchored" data-anchor-id="understanding">Understanding</h2>
+<blockquote class="blockquote">
+<p><strong>What Is ChatGPT Doing … and Why Does It Work? </strong><br>
+<em>Stephen Wolfram</em><br>
+Paper | Code | <a href="https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/">Blog</a> | YouTube | Twitter | Feb 2023<br>
+Strenghts &amp; Limitations. Long read.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>The Road to chatGPT </strong><br>
+<em>Rama Ramakrishnan</em><br>
+Paper | Code | <a href="https://drive.google.com/file/d/1-Gw1QsZEVhPYSeeNYnlrcgk_FbwuUTwq/view?pli=1">pdf</a> | YouTube | Twitter | Mar 2023<br>
+For a layman - how chatGPT works. Nice &amp; Quick.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Illustrating Reinforcement Learning from Human Feedback (RLHF) </strong><br>
+<em>HuggingFace</em><br>
+Paper | Code | <a href="https://huggingface.co/blog/rlhf">Blog</a> | YouTube | Twitter | Dec 2022<br>
+A nice tutorial on RLHF - a key piece in GPT family.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Understanding Parameter-Efficient Finetuning of Large Language Models: From Prefix Tuning to LLaMA-Adapters </strong><br>
+<em>Sebastian Bubeck</em><br>
+Paper | Code | <a href="https://lightning.ai/pages/community/article/understanding-llama-adapters/">Blog</a> | YouTube | Twitter | Apr 2023<br>
+Adapters - dock trainable network to a pre-trained LLM and fine-tune.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Why AI is incredibly smart and shockingly stupid </strong><br>
+<em>Yejn Choi</em><br>
+Paper | Code | Blog | YouTube | <a href="https://www.ted.com/talks/yejin_choi_why_ai_is_incredibly_smart_and_shockingly_stupid/c">TED</a> | May 2023<br>
+Is common sense important? Can AI be taught common sense. We need common-sense data.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Understanding pre-trained LLMs through Probabilistic Lens </strong><br>
+<em>Xinyi Wang</em><br>
+Paper | Code | <a href="https://wangxinyilinda.github.io/pdf/MAE_online.pdf">pdf</a> | YouTube | Twitter | Feb 2023<br>
+Somewhat a math-oriented explaination.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Prompt Engineering </strong><br>
+<em>Lillian Wang</em><br>
+Paper | Code | <a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/">Blog</a> | YouTube | Twitter | May 2023<br>
+I have a hammer. Give me a nail. Watchout for this to advance!</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>History of LLaMA </strong><br>
+<em>Andrew @ AGI Sphere</em><br>
+Paper | Code | <a href="https://agi-sphere.com/llama-models/">Blog</a> | YouTube | Twitter | Apr 2023<br>
+Tracks the history of LLaMA and future derivates.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Exploring ChatGPT vs open-source models on slightly harder tasks </strong><br>
+<em>Marco Tulio Ribeiro</em><br>
+Paper | Code | <a href="https://medium.com/@marcotcr/exploring-chatgpt-vs-open-source-models-on-slightly-harder-tasks-aa0395c31610">Blog</a> | YouTube | Twitter | May 2023<br>
+Well. GPT-4 is good.</p>
+</blockquote>
+</section>
+<section id="patterns" class="level2">
+<h2 class="anchored" data-anchor-id="patterns">Patterns</h2>
+<blockquote class="blockquote">
+<p><strong>Integrating ChatGPT with internal knowledge base and question-answer platform </strong><br>
+<em>Quy Tang</em><br>
+Paper | Code | <a href="https://medium.com/singapore-gds/integrating-chatgpt-with-internal-knowledge-base-and-question-answer-platform-36a3283d6334">Blog</a> | YouTube | Twitter | Mar 2023<br>
+Retriveal Augmented Informatrion Extraction - an important design pattern</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>LLMs as Recommender Systems </strong><br>
+<em>Sumit Kumar</em><br>
+Paper | Code | <a href="https://blog.reachsumit.com/posts/2023/05/tuning-llm-for-recsys/">Blog</a> | YouTube | Twitter | May 2023<br>
+I have a hammer. Give me a nail. Watchout for this to advance!</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Unifying LLM-powered QA Techniques with Routing Abstractions </strong><br>
+<em>Jerry Liu</em><br>
+Paper | Code | <a href="https://betterprogramming.pub/unifying-llm-powered-qa-techniques-with-routing-abstractions-438e2499a0d0">Blog</a> | YouTube | Twitter | May 2023<br>
+Router design pattern to search.</p>
+</blockquote>
+</section>
+<section id="perspectives" class="level2">
+<h2 class="anchored" data-anchor-id="perspectives">Perspectives</h2>
+<blockquote class="blockquote">
+<p><strong>State of GPT </strong><br>
+<em>Andrej Karpathy </em><br>
+Paper | Code | Blog | <a href="https://www.youtube.com/watch?v=bZQun8Y4L2A">YouTube</a> | Twitter | May 2023<br>
+Nice overview. Thinking Fast (Transformers &amp; Tokens) and Thinking Slow (Chain of Thoughts).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Emergence in Large Language Models </strong><br>
+<em>Jason Wei </em><br>
+Paper | Code | Blog | <a href="https://www.youtube.com/watch?v=0SuyDLjNR9g">YouTube</a> | <a href="https://twitter.com/ShayneRedford/status/1663938255241506821?s=20">Tweet</a> | May 2023<br>
+Nice overview. Thinking Fast (Transformers &amp; Tokens) and Thinking Slow (Chain of Thoughts).</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Reinforcement Learning from Human Feedback: Progress and Challenges </strong><br>
+<em>John Schulman</em><br>
+Paper | Code | Blog | <a href="https://www.youtube.com/watch?v=hhiLw5Q_UFg&amp;t=2s">YouTube</a> | Twitter | Apr 2023<br>
+RL in GPT is researchy (Dont try at home :) Dont try. Fine-tuning is OK.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Sparks of AGI </strong><br>
+<em>Sebastian Bubeck</em><br>
+Paper | Code | Blog | <a href="https://www.youtube.com/watch?v=qbIk7-JPB2c">YouTube</a> | Twitter | Apr 2023<br>
+Strenghts &amp; Limitations</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>AI Canon </strong><br>
+<em>Anderseen Horowitz</em><br>
+Paper | Code | <a href="">Blog</a> | YouTube | Twitter | May 2023<br>
+Yes, an AI Canon - of useful resources. This [what you are reading] blog is then a Howtizer :)</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Beyond Bias to Action: AI Startups and Big Tech </strong><br>
+<em>Prateek Raj</em><br>
+Paper | Code | <a href="https://prateekraj.substack.com/p/beyond-bias-to-action-ai-startups?r=1mknr&amp;utm_campaign=post&amp;utm_medium=web">Blog</a> | YouTube | Twitter | May 2023<br>
+Disrupt or be disrupted. What if the incumbents are creating products at breakneck speed. Microsoft’s Windows 11 - get it?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>The New Generative AI Infra Stack </strong><br>
+<em>Cowboy Ventures</em><br>
+Paper | Code | <a href="https://medium.com/cowboy-ventures/the-new-infra-stack-for-generative-ai-9db8f294dc3f">Blog</a> | YouTube | Twitter | May 2023<br>
+New Infra is needed to ship Generative AI products.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Large Language Models and the Future of the ML Infrastructure Stack </strong><br>
+<em>OuterBounds</em><br>
+Paper | Code | <a href="https://outerbounds.com/blog/llm-infrastructure-stack/">Blog</a> | YouTube | Twitter | Apr 2023<br>
+How LLMs will shape ML Infrastructure and vice-versa. Train Dolly with MetaFlow for under USD300.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Modern language models refute Chomsky’s approach to language </strong><br>
+<em>Steven Piantadosi</em><br>
+Paper | Code | <a href="https://lingbuzz.net/lingbuzz/007180">Blog</a> | YouTube | Twitter | Mar 2023<br>
+A debate rages again - this time with strong empircal success of neural language models, without any innate understanding of language.</p>
+</blockquote>
+</section>
+<section id="build" class="level2">
+<h2 class="anchored" data-anchor-id="build">Build</h2>
+<blockquote class="blockquote">
+<p><strong>GPT in 60 Lines of NumPy </strong><br>
+<em>Jay Moody</em><br>
+Paper | <a href="https://github.com/jaymody/picoGPT">Code</a> | <a href="https://jaykmody.com/blog/gpt-from-scratch/">Blog</a> | YouTube | <a href="https://twitter.com/AssemblyAI/status/1665716556171444226?s=20">Tweet</a> | Jun 2023<br>
+For educational purposes</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Let’s build GPT from scratch </strong><br>
+<em>Andrej Karpathy</em><br>
+Paper | <a href="https://github.com/karpathy/nanoGPT">Code</a> | Blog | <a href="https://www.youtube.com/watch?v=kCc8FmEb1nY">YouTube</a> | Twitter | Jan 2023<br>
+Hmm, timely to steer out of ambiguity. Trade-off hype for reality. Performance, Latency, Cost - matter more than novelty, as always!</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Building LLM applications for production </strong><br>
+<em>Chip Huyen</em><br>
+Paper | Code | <a href="https://huyenchip.com/2023/04/11/llm-engineering.html">Blog</a> | YouTube | Twitter | Apr 2023<br>
+Hmm, timely to steer out of ambiguity. Trade-off hype for reality. Performance, Latency, Cost - matter more than novelty, as always!</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>How we made Cerebras-GPT </strong><br>
+<em>Cerebras Systems</em><br>
+Paper | Code | Blog | <a href="https://www.youtube.com/watch?v=QmmNgiFuIog">YouTube</a> | Twitter | Q1 2023<br>
+The hardware tricks of the trade.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Free Dolly: Introducing the World’s First Truly Open Instruction-Tuned LLM </strong><br>
+<em>DataBricks</em><br>
+Paper | Code | <a href="https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm">Blog</a> | YouTube | Twitter | Apr 2023<br>
+For less USD30, train an LLM, whihc is commercially permissive, based off of GPT-Neo-X.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>How to train your own LLMs </strong><br>
+<em>replit</em><br>
+Paper | Code | <a href="https://blog.replit.com/llm-training">Blog</a> | YouTube | Twitter | May 2023<br>
+Lays out the steps.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>ColossalChat: An Open-Source Solution for Cloning ChatGPT With a Complete RLHF Pipeline </strong><br>
+<em>Yang You</em><br>
+Paper | <a href="https://github.com/hpcaitech/ColossalAI">Code</a> | <a href="https://medium.com/pytorch/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline-5edf08fb538b">Blog</a> | YouTube | Twitter | Mar 2023<br>
+Includes demo, training code, dataset, inference and model weights. Go create.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>The Full Story of Large Language Models and RLHF </strong><br>
+<em>Assembly AI</em><br>
+Paper | Code | <a href="https://www.assemblyai.com/blog/the-full-story-of-large-language-models-and-rlhf/">Blog</a> | YouTube | Twitter | May 2023<br>
+Create LLMs - another take.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Finetuning a commercially viable open source LLM (Flan-UL2) using Dolly15K and LoRA </strong><br>
+<em>Kevi Rohling</em><br>
+Paper | Code | <a href="https://medium.com/@krohling/finetuning-a-commercially-viable-open-source-llm-flan-ul2-3b84e568c458">Blog</a> | YouTube | Twitter | Apr 2023<br>
+Apply LoRA to create LLMS much quicker and cheaper.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><strong>Instruction-tune models using your own data with txtinstruct </strong><br>
+<em>David Mezzetti</em><br>
+Paper | <a href="https://colab.research.google.com/github/neuml/txtinstruct/blob/master/examples/01_Introducing_txtinstruct.ipynb">Code</a> | <a href="https://medium.com/neuml/instruction-tune-models-using-your-own-data-with-txtinstruct-3008d8c8d025">Blog</a> | YouTube | Twitter | May 2023<br>
+It works. Get model from HF and train.</p>
+</blockquote>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
